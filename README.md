@@ -2,19 +2,33 @@
 
 English | [简体中文](./README.zh-CN.md)
 
-This repository is a public, source-available release of `takeaway-skill`.
+This repository is the public `v1.0` release of `takeaway-skill`.
 
-It keeps the branded site shell and the public reasoning core, while leaving out private project material and real case content.
+It is designed as a lightweight GitHub-facing package:
 
-## Version Status
+- a branded site shell
+- a public version of the skill
+- safe reference templates
+- an editable framework without real case content
 
-- This repository currently reflects the public `v1.0` package.
-- The versions shown in my social media posts are closer to an internal `v3` workflow.
-- That internal version is more tightly packaged and will be further cleaned and packaged later.
+The versions shown in my social media posts are closer to an internal `v3` workflow. That version is more deeply packaged and supported by a broader multi-skill setup, and I plan to package more of it over time.
+
+## Why This Repository Exists
+
+`takeaway-skill` is not about copying someone else's facade and selling it.
+
+It is about:
+
+- learning faster
+- studying references with better judgment
+- separating mechanism from surface style
+- adapting ideas into stronger original work
+
+This repository is shared to increase visibility, exchange methods, and make the core idea easier to reuse.
 
 ## What This Repository Includes
 
-- the branded banner
+- the branded banner site shell
 - the list layout framework
 - the local view style
 - one empty template row
@@ -32,20 +46,20 @@ It keeps the branded site shell and the public reasoning core, while leaving out
 
 ## Why The Social Media Version Looks Stronger
 
-This public package focuses on `takeaway-skill` itself.
+This repository focuses on `takeaway-skill` itself.
 
-In my personal workflow, the strongest results usually come from multiple skills working together, for example:
+In my personal workflow, the strongest results usually come from several skills working together, for example:
 
 - `takeaway-skill`
   - decide what is worth taking and what must not be copied directly
 - `codingskill`
   - inspect site code, rebuild structures, and produce working reconstructions
 - `graphic-abstract-skill`
-  - compress the page logic into cleaner layout and visual decisions
+  - compress page logic into clearer layout and visual decisions
 - optional supporting skills
-  - such as SVG, visual extraction, or other production-side helpers
+  - such as SVG, visual extraction, and other production-side helpers
 
-If you want the closest result to my social media demos, a multi-skill workflow is usually necessary. `takeaway-skill` decides the strategy, but it does not replace implementation.
+If you want results closer to my social media demos, a multi-skill workflow is usually necessary. `takeaway-skill` defines the strategy, but it does not replace implementation.
 
 ## Structure
 
@@ -62,20 +76,18 @@ If you want the closest result to my social media demos, a multi-skill workflow 
 - Structural UI can stay in English.
 - Documentation uses English-first with a Chinese companion file.
 
-## Use Intent
+## License And Brand Boundary
 
-This repository is shared for:
+The code, documentation, and reusable framework are released under the MIT License.
 
-- learning
-- study
-- exchange
-- non-commercial adaptation
+However, the personal brand layer is not automatically transferred with that license. See [BRAND_NOTICE.md](./BRAND_NOTICE.md) for the reserved brand assets and identity elements.
 
-It is not intended to help people:
+In short:
 
-- resell cloned work
-- build commercial copies of protected material
-- profit from other people's recognizable creative facade
+- reuse the framework
+- study the method
+- build your own version
+- do not present derivative work as if it were the original author's personal brand
 
 ## Quick Start
 
@@ -87,8 +99,6 @@ It is not intended to help people:
 
 ## License
 
-This repository is source-available for learning and non-commercial use only.
+MIT for the code and reusable framework.
 
-Because commercial use is restricted, it should be treated as a public non-commercial release rather than an OSI open source release.
-
-See [LICENSE](./LICENSE).
+See [LICENSE](./LICENSE) and [BRAND_NOTICE.md](./BRAND_NOTICE.md).
