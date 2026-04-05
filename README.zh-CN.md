@@ -70,6 +70,23 @@
 - `references/`：安全模板与公开边界说明
 - `agents/openai.yaml`：skill 的 UI 元数据
 
+## 默认使用流
+
+这个仓库默认不是“只看一个 skill 文件就结束”。
+
+标准使用流是：
+
+1. 用 `skill/SKILL.md` 做蒸馏判断
+2. 用 `references/` 里的安全模板整理输出
+3. 把蒸馏后的结果回填到 `site/index.html` 的条目结构里
+4. 最后通过网页查看结果，而不是只停在文本输出
+
+也就是说：
+
+- `skill/SKILL.md` 管方法
+- `references/` 管模板
+- `site/index.html` 管最终公开展示
+
 ## 语言策略
 
 - 品牌文案可以保留中文
@@ -93,9 +110,10 @@
 
 1. 打开 `site/index.html`
 2. 如有需要，替换 banner 文案和图片
-3. 复制模板行，填入你自己的项目
-4. 把占位链接改成真实链接
-5. 如需复用判断逻辑，可直接使用或改写 `skill/SKILL.md` 与 `references/`
+3. 如需复用判断逻辑，可直接使用或改写 `skill/SKILL.md` 与 `references/`
+4. 复制 `site/index.html` 里的模板行，把蒸馏结果填进去
+5. 把占位链接改成真实链接
+6. 最后用网页查看，而不是只看文本结果
 
 ## License
 

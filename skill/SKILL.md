@@ -51,6 +51,23 @@ The default goal is to:
 4. produce a stable output instead of vague commentary
 5. suggest a clear implementation handoff
 
+## 2.1 Repository Reminder
+
+When this skill is used inside this public repository, do not leave the result as a standalone text note only.
+
+The default expectation is:
+
+1. distill the reference
+2. turn the result into a reusable entry or placeholder block
+3. place it into `site/index.html`
+4. review it through the webpage instead of treating the skill output as the final destination
+
+In short:
+
+- `skill/SKILL.md` defines the reasoning method
+- `references/` provides safe templates
+- `site/index.html` is the public-facing place where distilled results should be displayed
+
 ## 3. Default Workflow
 
 ### 3.1 Identify the object before judging it
@@ -204,6 +221,8 @@ When handing off, always include:
 3. what should not be touched yet
 4. what the smallest valid result is
 5. what the stop-loss condition is
+
+If the repository already contains a site shell, the default public handoff target is the entry structure inside `site/index.html`.
 
 ## 8. Boundaries
 

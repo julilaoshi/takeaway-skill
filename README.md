@@ -70,6 +70,19 @@ If you want results closer to my social media demos, a multi-skill workflow is u
 - `references/` - safe templates and public release guidance
 - `agents/openai.yaml` - UI metadata for the skill
 
+## Default Repository Flow
+
+This repository is not meant to stop at a text-only skill output.
+
+The default flow is:
+
+1. use `skill/SKILL.md` to distill a reference
+2. use `references/` as the safe output scaffold
+3. place the distilled result into the entry structure in `site/index.html`
+4. review the result through the webpage
+
+If someone only reads the skill file and never updates `site/index.html`, they are only using half of this repository.
+
 ## Language Strategy
 
 - Branding copy can stay in Chinese.
@@ -93,9 +106,10 @@ In short:
 
 1. Open `site/index.html`.
 2. Replace the banner copy and image if needed.
-3. Duplicate the template row and add your own projects.
-4. Replace the placeholder links with real destinations.
-5. Reuse or adapt `skill/SKILL.md` and the files in `references/`.
+3. Reuse or adapt `skill/SKILL.md` and the files in `references/`.
+4. Duplicate the template row in `site/index.html` and place your distilled result there.
+5. Replace the placeholder links with real destinations.
+6. Review the final result in the webpage, not only in the text output.
 
 ## License
 
