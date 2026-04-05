@@ -1,0 +1,84 @@
+.distill-tabs {
+  position: fixed;
+  right: 18px;
+  top: 18px;
+  z-index: 999;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  max-width: min(72vw, 760px);
+}
+
+.distill-tab {
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(10, 10, 10, 0.78);
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  backdrop-filter: blur(10px);
+  border-radius: 0 !important;
+}
+
+.distill-tab.is-active {
+  background: #ffffff;
+  color: #111111;
+}
+
+.distill-square :is(
+  .compare,
+  .restore-link,
+  .back,
+  .card,
+  .panel,
+  .project,
+  .field,
+  .step,
+  .hero,
+  .pill,
+  .footer-card,
+  .stage,
+  .effects span,
+  .chip,
+  .probe-panel,
+  .probe-stage__frame,
+  .probe-stats div,
+  .probe-link,
+  .probe-actions button,
+  .probe-canvas,
+  .restore-nav a,
+  .nav-overlay a,
+  .tag,
+  .thumb,
+  .hero-art,
+  .story-image,
+  .links a,
+  .cta
+) {
+  border-radius: 0 !important;
+}
+
+.distill-square .grid .card,
+.distill-square .cards .card,
+.distill-square .projects .project,
+.distill-square .values .pill,
+.distill-square .footer-card,
+.distill-square .stage,
+.distill-square .probe-panel,
+.distill-square .probe-stage__frame {
+  box-shadow: none !important;
+}
+
+@media (max-width: 900px) {
+  .distill-tabs {
+    left: 12px;
+    right: 12px;
+    top: 12px;
+    max-width: none;
+    justify-content: flex-start;
+  }
+}
