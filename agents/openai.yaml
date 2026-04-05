@@ -1,0 +1,4 @@
+interface:
+  display_name: "Takeaway Skill"
+  short_description: "拆参考、拿机制、控边界，并给出改造路线和下游交接路径"
+  default_prompt: "Use $takeaway-skill to study a reference site, effect, page, or layout, separate mechanism from surface style, decide what is reusable, what must be redesigned, and how to hand it off."
