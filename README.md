@@ -30,6 +30,7 @@ This repository is shared to increase visibility, exchange methods, and make the
 
 - the branded banner site shell
 - the list layout framework
+- an anonymous method view for pattern cards and implementation briefs
 - the local view style
 - one empty template row
 - the public version of `takeaway-skill`
@@ -43,6 +44,8 @@ This repository is shared to increase visibility, exchange methods, and make the
 - private links
 - local absolute paths
 - third-party example libraries
+- private identity details that belong only to the internal workflow
+- any feature for archiving third-party screenshots or recordings inside the public package
 
 ## Why The Social Media Version Looks Stronger
 
@@ -93,7 +96,7 @@ If someone only reads the skill file and never updates `site/index.html`, they a
 
 The code, documentation, and reusable framework are released under the MIT License.
 
-However, the personal brand layer is not automatically transferred with that license. See [BRAND_NOTICE.md](./BRAND_NOTICE.md) for the reserved brand assets and identity elements.
+However, brand-facing assets and identity elements are not automatically transferred with that license. See [BRAND_NOTICE.md](./BRAND_NOTICE.md) for the reserved brand assets and identity elements.
 
 In short:
 
@@ -101,6 +104,27 @@ In short:
 - study the method
 - build your own version
 - do not present derivative work as if it were the original author's personal brand
+- replace reserved brand-facing elements with your own before redistribution if needed
+
+## Internal vs Public Boundary
+
+The internal version of `takeaway-skill` may keep local research material for private study, including third-party screenshots, recordings, and object-specific notes.
+
+This public repository does not ship that capability.
+
+Public means:
+
+- method
+- templates
+- placeholders
+- reusable framework
+
+Public does not mean:
+
+- third-party screenshot archive
+- third-party recording archive
+- private identity sync
+- private workflow traces copied from the internal version
 
 ## Quick Start
 

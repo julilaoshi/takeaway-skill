@@ -29,3 +29,15 @@ Notes:
 ## 6. Public release safety
 
 `If I want to turn this result into a public template, separate what can be published from what must be deleted or converted into placeholders.`
+
+## 7. Compare two references
+
+`Compare these two references separately. Tell me their shared mechanisms, each one's strongest qualities, the conflicts between them, and which one should remain the primary reference.`
+
+## 8. Build an implementation brief
+
+`Turn this [screenshot / recording / page section] into an implementation brief without writing code. Include regions, components, states, what to lock first, what not to touch yet, and the recommended technical container.`
+
+## 9. Archive as a pattern card
+
+`Turn this reference into a reusable pattern card. Add object type, interaction tags, style tags, evidence confidence, originality distance, and archive value.`

@@ -36,3 +36,37 @@ Check at least:
 3. absolute local paths
 4. internal project codenames
 5. private implementation notes that should stay local
+
+## 4. Internal vs public
+
+The internal version may keep local study material such as:
+
+- third-party site names
+- screenshots
+- recordings
+- object-specific research notes
+
+Those materials must not be synced into this public repository.
+
+This public package should only keep:
+
+- reusable method
+- blank templates
+- placeholder prompts
+- anonymous pattern references
+
+It should not provide:
+
+- third-party screenshot archiving
+- third-party recording archiving
+- private identity sync
+- automatic carry-over from local research folders
+
+## 5. Personal information check
+
+Before syncing from the internal version, check:
+
+1. private photos or portrait assets that are not intentionally public
+2. personal links or contact details
+3. identity framing that belongs only to the internal workflow
+4. notes that imply the public package has access to private archives

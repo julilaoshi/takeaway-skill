@@ -200,6 +200,34 @@ If you need a public-safety check, read:
 
 - `references/open_source_safety.md`
 
+### 6.1 Public intake safety
+
+When this public package borrows ideas from GitHub repositories, design libraries, or UI tools, treat them as:
+
+- method references
+- taxonomy references
+- output-shape references
+
+Do not treat them as trusted execution chains to copy wholesale.
+
+Do not import directly:
+
+1. full executable prompts
+2. external automation pipelines
+3. install scripts or environment-specific setup
+4. third-party screenshot collections
+5. private notes from the internal workflow
+
+### 6.2 Public identity boundary
+
+This public package must not automatically carry over:
+
+1. private identity details
+2. private links
+3. local absolute paths
+4. internal-only workflow traces
+5. third-party screenshots or recordings kept for private study
+
 ## 7. Downstream Handoff
 
 This skill decides what is worth taking and how it should be adapted.

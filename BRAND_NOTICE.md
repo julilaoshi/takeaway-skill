@@ -12,6 +12,11 @@ However, the following brand-facing elements are reserved and are not automatica
 - personal brand presentation, identity framing, and endorsement implication
 - any wording that suggests a derivative project is the official project or official personal output of the original author
 
+For clarity:
+
+- the MIT license applies to the reusable code, documentation, and framework material
+- reserved brand-facing elements should be treated as excluded unless explicit permission is given
+
 You may study the structure and replace these elements with your own.
 
 You may not present your derivative work as if it were authored, endorsed, sponsored, or officially published by the original author.

@@ -15,6 +15,11 @@ Suggested output structure:
 2. `One-line judgment`
    - [the most important takeaway]
 
+2.5 `Pattern tags`
+   - [object type]
+   - [interaction tags]
+   - [style tags]
+
 3. `Most valuable takeaway`
    - [mechanism / structure / rhythm / visual language]
 
@@ -34,6 +39,11 @@ Suggested output structure:
 7. `Evidence still insufficient`
    - [missing evidence]
 
+7.5 `Scores`
+   - evidence confidence: [high / medium / low]
+   - originality distance: [far / medium / near]
+   - archive value: [high / medium / low]
+
 8. `Adaptation suggestions`
    - [direction 1]
    - [direction 2]
@@ -45,3 +55,19 @@ Suggested output structure:
      - [smallest result]
    - stop-loss:
      - [when to stop guessing]
+
+10. `Implementation brief`
+   - regions:
+     - [region 1]
+     - [region 2]
+   - components:
+     - [component 1]
+     - [component 2]
+   - states:
+     - [default / hover / scroll / expanded]
+   - lock first:
+     - [skeleton / crop / hierarchy]
+   - do not touch yet:
+     - [decorative details / guessed parameters / mixed layers]
+   - recommended container:
+     - [HTML / CSS / JS / SVG / design file]

@@ -315,6 +315,129 @@
       .status-bar {
         display: none;
       }
+      .method-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+        gap: 18px;
+        margin-top: 22px;
+      }
+      .method-card {
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.72);
+      }
+      .method-card-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: end;
+        padding: 14px 16px 12px;
+        border-bottom: 1px solid var(--line);
+      }
+      .method-card-head strong {
+        font-size: 14px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      .method-card-head span {
+        color: var(--muted);
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: right;
+      }
+      .method-card-body {
+        display: grid;
+        gap: 16px;
+        padding: 16px;
+      }
+      .micro-label {
+        display: inline-flex;
+        width: fit-content;
+        min-height: 26px;
+        align-items: center;
+        padding: 0 8px;
+        border: 1px solid var(--line);
+        background: #ffffff;
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .signal-line {
+        display: grid;
+        gap: 8px;
+      }
+      .signal-line strong {
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 600;
+      }
+      .signal-line p,
+      .brief-note {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.75;
+      }
+      .tag-group {
+        display: grid;
+        gap: 10px;
+      }
+      .tag-group strong,
+      .stack-block strong {
+        font-size: 12px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      .tag-row,
+      .score-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .tag-row span,
+      .score-row span {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        padding: 0 10px;
+        border: 1px solid var(--line);
+        background: #fff;
+        font-size: 12px;
+      }
+      .stack-block {
+        display: grid;
+        gap: 10px;
+      }
+      .stack-block ul {
+        margin: 0;
+        padding-left: 18px;
+        color: var(--muted);
+        line-height: 1.8;
+      }
+      .brief-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+      .brief-cell {
+        display: grid;
+        gap: 8px;
+        padding: 12px;
+        border: 1px solid var(--soft-line);
+        background: rgba(255, 255, 255, 0.78);
+      }
+      .brief-cell ul {
+        margin: 0;
+        padding-left: 18px;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+      .safe-note {
+        padding: 14px 16px;
+        border-top: 1px solid var(--line);
+        background: rgba(17, 17, 17, 0.04);
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.75;
+      }
       @media (max-width: 1080px) {
         .masthead {
           grid-template-columns: 1fr;
@@ -353,6 +476,9 @@
         .cell-links {
           grid-column: 1 / -1;
           justify-content: flex-start;
+        }
+        .method-grid {
+          grid-template-columns: 1fr;
         }
       }
       @media (max-width: 820px) {
@@ -410,6 +536,9 @@
         .row {
           grid-template-columns: 1fr;
         }
+        .brief-grid {
+          grid-template-columns: 1fr;
+        }
       }
     </style>
   </head>
@@ -440,10 +569,10 @@
               </div>
             </div>
             <div class="hero-meta" aria-label="distill summary">
-              <span>active cards: 12</span>
-              <span>with restore: 2</span>
-              <span>effect lab: d-002</span>
-              <span>archive bucket: d-999</span>
+              <span>public method pack</span>
+              <span>pattern cards</span>
+              <span>implementation brief</span>
+              <span>public-safe scaffold</span>
               <strong class="hero-handle">@julilaoshi</strong>
               <strong class="hero-takeaway">takeaway Skill</strong>
             </div>
@@ -471,7 +600,7 @@
             </div>
           </div>
           <div class="cell-desc" id="notes">
-            This public version keeps the branded banner and the list framework only. It does not include real case studies, private research archives, or original-source links. Add your own project rows below.
+            This public version keeps the branded shell, the list framework, and the method scaffold. It does not include real case studies, private research archives, or third-party source packages. Add your own rows, then replace the placeholders with your own material.
           </div>
           <div class="cell-links">
             <a class="is-disabled" href="#">001 demo</a>
@@ -479,6 +608,125 @@
             <a class="is-disabled" href="#">003 source</a>
             <a class="is-disabled" href="#">004 link</a>
             <a class="is-disabled" href="#">template</a>
+          </div>
+        </article>
+      </section>
+
+      <div class="section-head" style="margin-top: 22px;">
+        <strong>Method View</strong>
+        <span>Anonymous pattern card / implementation brief / public-safe scaffold</span>
+      </div>
+
+      <section class="method-grid" aria-label="public method showcase">
+        <article class="method-card">
+          <div class="method-card-head">
+            <strong>Pattern Card</strong>
+            <span>anonymous example only<br />no third-party source material stored</span>
+          </div>
+          <div class="method-card-body">
+            <span class="micro-label">rhythm-first / landing hero</span>
+            <div class="signal-line">
+              <strong>Calm skeleton first, reveal later.</strong>
+              <p>This example shows how a public pattern card can capture structure, rhythm, risk, and adaptation direction without exposing a real external site, screenshot, or brand-facing identity.</p>
+            </div>
+            <div class="tag-group">
+              <strong>Pattern Tags</strong>
+              <div class="tag-row">
+                <span>hero</span>
+                <span>scroll</span>
+                <span>reveal</span>
+                <span>editorial</span>
+                <span>minimal</span>
+              </div>
+            </div>
+            <div class="score-row" aria-label="public-safe scores">
+              <span>evidence: medium</span>
+              <span>distance: medium</span>
+              <span>archive: high</span>
+            </div>
+            <div class="stack-block">
+              <strong>Most Valuable Takeaway</strong>
+              <ul>
+                <li>One dominant message, then one secondary action.</li>
+                <li>Large calm spacing before motion starts.</li>
+                <li>Module order does more work than decoration.</li>
+              </ul>
+            </div>
+            <div class="stack-block">
+              <strong>Adaptation Direction</strong>
+              <ul>
+                <li>Keep the pacing, not the facade.</li>
+                <li>Replace brand-tied symbols with your own content anchor.</li>
+                <li>Lock skeleton and crop before tuning style details.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="safe-note">
+            Public pattern cards are meant to preserve method and reusable judgment. They are not a hidden archive of third-party screenshots, recordings, or private reference notes.
+          </div>
+        </article>
+
+        <article class="method-card">
+          <div class="method-card-head">
+            <strong>Implementation Brief</strong>
+            <span>handoff-ready structure<br />still public-safe and placeholder-based</span>
+          </div>
+          <div class="method-card-body">
+            <p class="brief-note">This block turns a distilled pattern into a build-ready brief without jumping straight into code and without carrying private research material into the public package.</p>
+            <div class="brief-grid">
+              <div class="brief-cell">
+                <strong>Regions</strong>
+                <ul>
+                  <li>nav</li>
+                  <li>hero content</li>
+                  <li>reveal section</li>
+                </ul>
+              </div>
+              <div class="brief-cell">
+                <strong>Components</strong>
+                <ul>
+                  <li>heading</li>
+                  <li>support text</li>
+                  <li>primary action</li>
+                  <li>media block</li>
+                </ul>
+              </div>
+              <div class="brief-cell">
+                <strong>States</strong>
+                <ul>
+                  <li>default</li>
+                  <li>initial enter</li>
+                  <li>scroll reveal</li>
+                </ul>
+              </div>
+              <div class="brief-cell">
+                <strong>Lock First</strong>
+                <ul>
+                  <li>skeleton</li>
+                  <li>crop</li>
+                  <li>hierarchy</li>
+                </ul>
+              </div>
+              <div class="brief-cell">
+                <strong>Do Not Touch Yet</strong>
+                <ul>
+                  <li>decorative details</li>
+                  <li>guessed parameters</li>
+                  <li>mixed reference layers</li>
+                </ul>
+              </div>
+              <div class="brief-cell">
+                <strong>Container</strong>
+                <ul>
+                  <li>HTML / CSS / JS</li>
+                  <li>SVG if shape logic matters</li>
+                  <li>design file if layout is still unstable</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="safe-note">
+            The public brief shows output shape only. Internal workflows may keep richer local evidence, but that material should stay private and never be shipped as part of this repository.
           </div>
         </article>
       </section>
