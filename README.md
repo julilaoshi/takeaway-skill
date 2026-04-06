@@ -1,8 +1,19 @@
 # Takeaway Skill
 
+Takeaway Skill (`拿来主义skill`) is a reference distillation framework for turning sites, layouts, effects, screenshots, and visual systems into reusable mechanisms, adaptation routes, pattern cards, and implementation briefs without copying surface style.
+
 English | [简体中文](./README.zh-CN.md)
 
 This repository is the public `v1.0` release of `takeaway-skill`.
+
+Core keywords:
+
+- `Takeaway Skill`
+- `拿来主义skill`
+- `reference distillation`
+- `pattern card`
+- `implementation brief`
+- `mechanism not surface style`
 
 It is designed as a lightweight GitHub-facing package:
 
@@ -72,6 +83,11 @@ If you want results closer to my social media demos, a multi-skill workflow is u
 - `skill/SKILL.md` - the public skill file
 - `references/` - safe templates and public release guidance
 - `agents/openai.yaml` - UI metadata for the skill
+
+## Release Helpers
+
+- [GITHUB_ABOUT_SUGGESTION.md](./GITHUB_ABOUT_SUGGESTION.md) - suggested GitHub description and topics
+- [PUBLIC_RELEASE_CHECKLIST.md](./PUBLIC_RELEASE_CHECKLIST.md) - final pre-publish review list
 
 ## Default Repository Flow
 

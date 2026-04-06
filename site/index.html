@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>居里老师拿来主义</title>
+    <meta
+      name="description"
+      content="Takeaway Skill（拿来主义skill）是一个参考蒸馏框架，用于把网站、页面、动效、截图和视觉系统拆成可复用机制、pattern card 与 implementation brief，而不是照抄表皮。"
+    />
     <link rel="stylesheet" href="./ui/local-view.css" />
     <style>
       :root {
@@ -128,6 +132,16 @@
         gap: 8px;
         flex-wrap: wrap;
         align-items: center;
+      }
+      .hero-functional-line {
+        display: block;
+        color: rgba(255, 255, 255, 0.92);
+        font-size: clamp(13px, 1.18vw, 18px);
+        line-height: 1.45;
+        font-weight: 600;
+        max-width: 40rem;
+        text-wrap: balance;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
       }
       .hero-meta span {
         display: inline-flex;
@@ -560,6 +574,7 @@
                 <div class="title-note" aria-label="照抄是无能的，拿来是为了超越">
                   <span class="hero-subline">“照抄是无能的，拿来是为了超越”</span>
                 </div>
+                <span class="hero-functional-line">Takeaway Skill（拿来主义skill）: distill references into reusable mechanisms, adaptation routes, pattern cards, and implementation briefs without copying surface style.</span>
               </div>
               <div class="hero-mark" aria-hidden="true">SKILL</div>
               <div class="bio-stack" aria-label="居里老师简介">
