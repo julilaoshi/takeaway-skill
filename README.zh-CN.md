@@ -1,6 +1,6 @@
 # Takeaway Skill
 
-![Takeaway Skill banner](./site/assets/jl-profile-wide.png)
+![Takeaway Skill 交互演示](./site/assets/readme-interaction-demo.gif)
 
 `Takeaway Skill（拿来主义skill）` 是一套公开 `v1.0` 的参考蒸馏框架：把网站、页面、动效、截图和视觉系统拆成可复用机制、改造路线、pattern card 和 implementation brief，而不是照抄表皮。
 
@@ -11,10 +11,6 @@
 - [打开方法展示页](./site/index.html)
 - [阅读公开版 Skill 文件](./skill/SKILL.md)
 - [观看视频讲解](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
-
-## 交互演示
-
-![Takeaway Skill 交互演示](./site/assets/readme-interaction-demo.gif)
 
 ## 参考文件
 
