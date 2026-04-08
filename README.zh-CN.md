@@ -1,19 +1,27 @@
 # Takeaway Skill
 
-`Takeaway Skill（拿来主义skill）` 是一套参考蒸馏框架：把网站、页面、动效、截图和视觉系统拆成可复用机制、改造路线、pattern card 和 implementation brief，而不是照抄表皮。
+![Takeaway Skill banner](./site/assets/jl-profile-wide.png)
+
+`Takeaway Skill（拿来主义skill）` 是一套公开 `v1.0` 的参考蒸馏框架：把网站、页面、动效、截图和视觉系统拆成可复用机制、改造路线、pattern card 和 implementation brief，而不是照抄表皮。
 
 [English](./README.md) | 简体中文
 
+## 快速开始
+
+- [打开方法展示页](./site/index.html)
+- [阅读公开版 Skill 文件](./skill/SKILL.md)
+- [观看视频讲解](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
+
+## 交互演示
+
+![Takeaway Skill 交互演示](./site/assets/readme-interaction-demo.gif)
+
+## 参考文件
+
+- [Pattern Taxonomy](./references/pattern_taxonomy.md)
+- [Pattern Card 示例](./references/pattern_card_example.md)
+
 这是 `takeaway-skill` 的公开 `v1.0` 发布版。
-
-核心关键词：
-
-- `Takeaway Skill`
-- `拿来主义skill`
-- `参考蒸馏`
-- `pattern card`
-- `implementation brief`
-- `拿机制，不拿表皮`
 
 它更像一个面向 GitHub 传播的轻量包，主要包含：
 

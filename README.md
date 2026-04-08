@@ -1,19 +1,27 @@
 # Takeaway Skill
 
-Takeaway Skill (`拿来主义skill`) is a reference distillation framework for turning sites, layouts, effects, screenshots, and visual systems into reusable mechanisms, adaptation routes, pattern cards, and implementation briefs without copying surface style.
+![Takeaway Skill banner](./site/assets/jl-profile-wide.png)
+
+Takeaway Skill (`拿来主义skill`) is a public v1.0 reference distillation framework for turning sites, layouts, effects, screenshots, and visual systems into reusable mechanisms, adaptation routes, pattern cards, and implementation briefs without copying surface style.
 
 English | [简体中文](./README.zh-CN.md)
 
+## Start Here
+
+- [Open the method view](./site/index.html)
+- [Read the public skill file](./skill/SKILL.md)
+- [Watch the video walkthrough](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
+
+## Interaction Demo
+
+![Takeaway Skill interaction demo](./site/assets/readme-interaction-demo.gif)
+
+## Reference Files
+
+- [Pattern Taxonomy](./references/pattern_taxonomy.md)
+- [Pattern Card Example](./references/pattern_card_example.md)
+
 This repository is the public `v1.0` release of `takeaway-skill`.
-
-Core keywords:
-
-- `Takeaway Skill`
-- `拿来主义skill`
-- `reference distillation`
-- `pattern card`
-- `implementation brief`
-- `mechanism not surface style`
 
 It is designed as a lightweight GitHub-facing package:
 
