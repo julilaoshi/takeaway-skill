@@ -187,6 +187,23 @@
 5. 把占位链接改成真实链接
 6. 最后用网页查看，而不是只看文本结果
 
+## 找到居里老师
+
+<p align="center">
+  <a href="./site/index.html"><img alt="官网 / 展示页" src="https://img.shields.io/badge/官网-展示页-111111?style=for-the-badge" /></a>
+  <a href="https://youtu.be/BoX5lhy0al4"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-观看演示-d14836?style=for-the-badge&logo=youtube&logoColor=white" /></a>
+</p>
+
+| 平台 | 账号 / 入口 |
+| --- | --- |
+| 推特 / X | `@julilaoshi` |
+| Instagram / INS | [@julilaoshi](https://www.instagram.com/julilaoshi?igsh=d2lhZmhoMzNlOTlk&utm_source=qr) |
+| B站 | `居里老师` |
+| 小红书 | `居里老师` |
+| 公众号 | `居里生成` |
+| 视频号 | `居里老师` |
+| 微信搜一搜 | 搜索 `居里生成` / `居里老师` |
+
 ## License
 
 代码与可复用框架采用 MIT。

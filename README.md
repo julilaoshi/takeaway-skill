@@ -185,6 +185,23 @@ Public does not mean:
 5. Replace the placeholder links with real destinations.
 6. Review the final result in the webpage, not only in the text output.
 
+## Find Juli Laoshi
+
+<p align="center">
+  <a href="./site/index.html"><img alt="Website / Method View" src="https://img.shields.io/badge/Website-Method%20View-111111?style=for-the-badge" /></a>
+  <a href="https://youtu.be/BoX5lhy0al4"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Watch%20Demo-d14836?style=for-the-badge&logo=youtube&logoColor=white" /></a>
+</p>
+
+| Platform | Identity |
+| --- | --- |
+| X / Twitter | `@julilaoshi` |
+| Instagram | [@julilaoshi](https://www.instagram.com/julilaoshi?igsh=d2lhZmhoMzNlOTlk&utm_source=qr) |
+| Bilibili | `居里老师` |
+| Xiaohongshu | `居里老师` |
+| WeChat Official Account | `居里生成` |
+| WeChat Channels | `居里老师` |
+| WeChat Search | Search `居里生成` / `居里老师` |
+
 ## License
 
 MIT for the code and reusable framework.
