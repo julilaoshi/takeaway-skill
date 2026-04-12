@@ -194,6 +194,7 @@ Public does not mean:
 | --- | --- |
 | X / Twitter | [@julilaoshi](https://x.com/julilaoshi?s=21) |
 | Instagram | [@julilaoshi](https://www.instagram.com/julilaoshi?igsh=d2lhZmhoMzNlOTlk&utm_source=qr) |
+| YouTube | [@julilaoshi](https://www.youtube.com/@julilaoshi) |
 | Red Book | [居里老师](https://xhslink.com/m/ArTQH4nAado) |
 
 ## License
