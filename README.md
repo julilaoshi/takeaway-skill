@@ -37,12 +37,6 @@ English | [简体中文](./README.zh-CN.md)
 
 ## Project Demo
 
-<p align="center">
-  <a href="https://youtu.be/BoX5lhy0al4">
-    <img src="./site/assets/project_demo_cover.jpg" alt="Watch the project demo" width="76%" />
-  </a>
-</p>
-
 Watch the full demo on YouTube:
 [https://youtu.be/BoX5lhy0al4](https://youtu.be/BoX5lhy0al4)
 
