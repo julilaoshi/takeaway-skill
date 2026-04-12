@@ -37,7 +37,11 @@
 
 ## 项目演示
 
-[![观看项目演示](./site/assets/project_demo_cover.jpg)](https://youtu.be/BoX5lhy0al4)
+<p align="center">
+  <a href="https://youtu.be/BoX5lhy0al4">
+    <img src="./site/assets/project_demo_cover.jpg" alt="观看项目演示" width="76%" />
+  </a>
+</p>
 
 完整视频链接：
 [https://youtu.be/BoX5lhy0al4](https://youtu.be/BoX5lhy0al4)
@@ -190,8 +194,8 @@
 ## 找到居里老师
 
 <p align="center">
-  <a href="./site/index.html"><img alt="官网 / 展示页" src="https://img.shields.io/badge/官网-展示页-111111?style=for-the-badge" /></a>
-  <a href="https://youtu.be/BoX5lhy0al4"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-观看演示-d14836?style=for-the-badge&logo=youtube&logoColor=white" /></a>
+  <a href="https://github.com/julilaoshi"><img alt="关注 GitHub" src="https://img.shields.io/badge/关注-GitHub-111111?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/julilaoshi/takeaway-skill"><img alt="给仓库点星" src="https://img.shields.io/badge/给仓库-点星-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
 </p>
 
 | 平台 | 账号 / 入口 |

@@ -37,7 +37,11 @@ English | [简体中文](./README.zh-CN.md)
 
 ## Project Demo
 
-[![Watch the project demo](./site/assets/project_demo_cover.jpg)](https://youtu.be/BoX5lhy0al4)
+<p align="center">
+  <a href="https://youtu.be/BoX5lhy0al4">
+    <img src="./site/assets/project_demo_cover.jpg" alt="Watch the project demo" width="76%" />
+  </a>
+</p>
 
 Watch the full demo on YouTube:
 [https://youtu.be/BoX5lhy0al4](https://youtu.be/BoX5lhy0al4)
@@ -185,11 +189,11 @@ Public does not mean:
 5. Replace the placeholder links with real destinations.
 6. Review the final result in the webpage, not only in the text output.
 
-## Find Juli Laoshi
+## Find Julilaoshi
 
 <p align="center">
-  <a href="./site/index.html"><img alt="Website / Method View" src="https://img.shields.io/badge/Website-Method%20View-111111?style=for-the-badge" /></a>
-  <a href="https://youtu.be/BoX5lhy0al4"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-Watch%20Demo-d14836?style=for-the-badge&logo=youtube&logoColor=white" /></a>
+  <a href="https://github.com/julilaoshi"><img alt="Follow Juli on GitHub" src="https://img.shields.io/badge/Follow%20Juli-on%20GitHub-111111?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/julilaoshi/takeaway-skill"><img alt="Star Takeaway Skill" src="https://img.shields.io/badge/Star-Takeaway%20Skill-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
 </p>
 
 | Platform | Identity |
