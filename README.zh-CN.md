@@ -196,13 +196,12 @@
 
 | 平台 | 账号 / 入口 |
 | --- | --- |
-| 推特 / X | `@julilaoshi` |
+| 推特 / X | [@julilaoshi](https://x.com/julilaoshi?s=21) |
 | Instagram / INS | [@julilaoshi](https://www.instagram.com/julilaoshi?igsh=d2lhZmhoMzNlOTlk&utm_source=qr) |
 | B站 | `居里老师` |
-| 小红书 | `居里老师` |
+| Red Book | [居里老师](https://xhslink.com/m/ArTQH4nAado) |
 | 公众号 | `居里生成` |
-| 视频号 | `居里老师` |
-| 微信搜一搜 | 搜索 `居里生成` / `居里老师` |
+| Video Channel | `居里老师` |
 
 ## License
 

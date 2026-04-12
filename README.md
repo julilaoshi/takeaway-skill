@@ -194,13 +194,12 @@ Public does not mean:
 
 | Platform | Identity |
 | --- | --- |
-| X / Twitter | `@julilaoshi` |
+| X / Twitter | [@julilaoshi](https://x.com/julilaoshi?s=21) |
 | Instagram | [@julilaoshi](https://www.instagram.com/julilaoshi?igsh=d2lhZmhoMzNlOTlk&utm_source=qr) |
 | Bilibili | `居里老师` |
-| Xiaohongshu | `居里老师` |
+| Red Book | [居里老师](https://xhslink.com/m/ArTQH4nAado) |
 | WeChat Official Account | `居里生成` |
-| WeChat Channels | `居里老师` |
-| WeChat Search | Search `居里生成` / `居里老师` |
+| Video Channel | `居里老师` |
 
 ## License
 
