@@ -1,8 +1,8 @@
 # Takeaway Skill / 拿来主义 skill
 
 <p align="center">
-  <strong>Not screenshot collecting. Not style copying.</strong><br />
-  A public workflow for turning references into stronger original work.
+  <strong>Stop hoarding references. Start turning them into your own edge.</strong><br />
+  Takeaway Skill pulls sites, effects, and visual systems apart, then helps you rebuild them as reusable patterns instead of surface-level copies.
 </p>
 
 <p align="center">
@@ -22,12 +22,13 @@
 
 English | [简体中文](./README.zh-CN.md)
 
-## What You Get
+## What This Unlocks
 
-- reusable mechanisms
-- adaptation routes
-- pattern cards
-- implementation briefs
+- stop just collecting good references
+- distill good sites, designs, and interactions into reusable local assets
+- place the distilled results into the management page I built for viewing, demos, and iteration
+- make it easier to manage, review, present, and keep improving
+- combine it with other skills to move toward automated distillation, automated design, and automatic asset use
 
 ## Start Here
 
