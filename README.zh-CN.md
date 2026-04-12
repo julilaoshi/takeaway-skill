@@ -1,16 +1,46 @@
-# Takeaway Skill
+# Takeaway Skill / 拿来主义 skill
 
-![Takeaway Skill 交互演示](./site/assets/readme-interaction-demo.gif)
+<p align="center">
+  <strong>不是截图收藏，也不是照抄样式。</strong><br />
+  它是一套把参考对象转成更强原创结果的公开工作流。
+</p>
 
-`Takeaway Skill（拿来主义skill）` 是一套公开 `v1.0` 的参考蒸馏框架：把网站、页面、动效、截图和视觉系统拆成可复用机制、改造路线、pattern card 和 implementation brief，而不是照抄表皮。
+<p align="center">
+  <a href="./site/index.html"><img alt="打开展示页" src="https://img.shields.io/badge/打开-展示页-111111?style=for-the-badge" /></a>
+  <a href="./skill/SKILL.md"><img alt="阅读 Skill" src="https://img.shields.io/badge/阅读-Skill-1f6feb?style=for-the-badge" /></a>
+  <a href="https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2"><img alt="观看视频" src="https://img.shields.io/badge/观看-视频-d14836?style=for-the-badge" /></a>
+  <a href="#默认使用流"><img alt="如何使用" src="https://img.shields.io/badge/如何-使用-2da44e?style=for-the-badge" /></a>
+</p>
+
+<p align="center">
+  <img src="./site/assets/readme-interaction-demo.gif" alt="Takeaway Skill 交互演示" width="100%" />
+</p>
+
+<p align="center">
+  当前公开的是 <code>v1.0</code>。我社交媒体里展示的版本，更接近内部的 <code>v3</code> 工作流。
+</p>
 
 [English](./README.md) | 简体中文
+
+## 你会得到什么
+
+- 可复用的机制拆解
+- 可执行的改造路线
+- pattern card
+- implementation brief
 
 ## 快速开始
 
 - [打开方法展示页](./site/index.html)
 - [阅读公开版 Skill 文件](./skill/SKILL.md)
 - [观看视频讲解](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
+
+## 项目演示
+
+[![观看项目演示](./site/assets/project_demo_cover.jpg)](https://youtu.be/BoX5lhy0al4)
+
+完整视频链接：
+[https://youtu.be/BoX5lhy0al4](https://youtu.be/BoX5lhy0al4)
 
 ## 参考文件
 
@@ -70,7 +100,7 @@
   - 负责判断什么值得拿、什么不能直接照抄
 - `codingskill`
   - 负责读网站代码、重建结构、做出可运行的还原或改造版本
-- `graphic-abstract-skill`
+- `static-design-skill`
   - 负责把页面逻辑进一步压缩成更清楚的版式和视觉决策
 - 其他辅助 skill
   - 比如 SVG、主体提取、图形或素材处理相关 skill

@@ -1,16 +1,46 @@
-# Takeaway Skill
+# Takeaway Skill / 拿来主义 skill
 
-![Takeaway Skill interaction demo](./site/assets/readme-interaction-demo.gif)
+<p align="center">
+  <strong>Not screenshot collecting. Not style copying.</strong><br />
+  A public workflow for turning references into stronger original work.
+</p>
 
-Takeaway Skill (`拿来主义skill`) is a public v1.0 reference distillation framework for turning sites, layouts, effects, screenshots, and visual systems into reusable mechanisms, adaptation routes, pattern cards, and implementation briefs without copying surface style.
+<p align="center">
+  <a href="./site/index.html"><img alt="See Demo" src="https://img.shields.io/badge/See-Demo-111111?style=for-the-badge" /></a>
+  <a href="./skill/SKILL.md"><img alt="Read Skill" src="https://img.shields.io/badge/Read-Skill-1f6feb?style=for-the-badge" /></a>
+  <a href="https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2"><img alt="Watch Video" src="https://img.shields.io/badge/Watch-Video-d14836?style=for-the-badge" /></a>
+  <a href="#default-repository-flow"><img alt="How It Works" src="https://img.shields.io/badge/How-It%20Works-2da44e?style=for-the-badge" /></a>
+</p>
+
+<p align="center">
+  <img src="./site/assets/readme-interaction-demo.gif" alt="Takeaway Skill interaction demo" width="100%" />
+</p>
+
+<p align="center">
+  Public <code>v1.0</code> now. The versions shown on my social media are closer to an internal <code>v3</code> workflow.
+</p>
 
 English | [简体中文](./README.zh-CN.md)
+
+## What You Get
+
+- reusable mechanisms
+- adaptation routes
+- pattern cards
+- implementation briefs
 
 ## Start Here
 
 - [Open the method view](./site/index.html)
 - [Read the public skill file](./skill/SKILL.md)
 - [Watch the video walkthrough](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
+
+## Project Demo
+
+[![Watch the project demo](./site/assets/project_demo_cover.jpg)](https://youtu.be/BoX5lhy0al4)
+
+Watch the full demo on YouTube:
+[https://youtu.be/BoX5lhy0al4](https://youtu.be/BoX5lhy0al4)
 
 ## Reference Files
 
@@ -72,7 +102,7 @@ In my personal workflow, the strongest results usually come from several skills 
   - decide what is worth taking and what must not be copied directly
 - `codingskill`
   - inspect site code, rebuild structures, and produce working reconstructions
-- `graphic-abstract-skill`
+- `static-design-skill`
   - compress page logic into clearer layout and visual decisions
 - optional supporting skills
   - such as SVG, visual extraction, and other production-side helpers
