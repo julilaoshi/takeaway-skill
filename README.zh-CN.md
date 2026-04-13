@@ -33,10 +33,9 @@
 
 ## 快速开始
 
-- [观看视频讲解](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
 - [给仓库点星](https://github.com/julilaoshi/takeaway-skill)
 - [阅读公开版 Skill 文件](./skill/SKILL.md)
-- [看方法页](./site/index.html)
+- [观看视频讲解](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
 
 ## 项目演示
 
@@ -48,11 +47,6 @@
 
 完整视频链接：
 [https://youtu.be/BoX5lhy0al4](https://youtu.be/BoX5lhy0al4)
-
-## 参考文件
-
-- [Pattern Taxonomy](./references/pattern_taxonomy.md)
-- [Pattern Card 示例](./references/pattern_card_example.md)
 
 这是 `takeaway-skill` 的公开 `v1.0` 发布版。
 

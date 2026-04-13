@@ -33,20 +33,14 @@ English | [简体中文](./README.zh-CN.md)
 
 ## Start Here
 
-- [Watch the video walkthrough](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
 - [Star the repository](https://github.com/julilaoshi/takeaway-skill)
 - [Read the public skill file](./skill/SKILL.md)
-- [See the method page](./site/index.html)
+- [Watch the video walkthrough](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
 
 ## Project Demo
 
 Watch the full demo on YouTube:
 [https://youtu.be/BoX5lhy0al4](https://youtu.be/BoX5lhy0al4)
-
-## Reference Files
-
-- [Pattern Taxonomy](./references/pattern_taxonomy.md)
-- [Pattern Card Example](./references/pattern_card_example.md)
 
 This repository is the public `v1.0` release of `takeaway-skill`.
 
