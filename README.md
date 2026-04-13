@@ -39,19 +39,7 @@ English | [简体中文](./README.zh-CN.md)
 
 ## Project Demo
 
-Watch the full demo on YouTube:
-[https://youtu.be/BoX5lhy0al4](https://youtu.be/BoX5lhy0al4)
-
-This repository is the public `v1.0` release of `takeaway-skill`.
-
-It works as a public distillation shell:
-
-- a lightweight page shell for hosting distilled entries
-- a public version of the skill
-- safe reference templates
-- an editable framework without real case content
-
-The versions shown in my social media posts are closer to an internal `v3` workflow. That version is more deeply packaged and supported by a broader multi-skill setup, and I plan to package more of it over time.
+[Watch the full demo on YouTube](https://youtu.be/BoX5lhy0al4)
 
 ## Why This Repository Exists
 
@@ -72,12 +60,13 @@ This repository is shared to increase visibility, exchange methods, and make the
 - the public version of `takeaway-skill`
 - safe reference templates
 - an editable framework without real case content
+- the current public `v1.0` release
 
 ## What This Repository Does Not Include
 
 - real case studies
-- private research archives
-- source material packages
+- private research archives (selected non-sensitive parts may appear later in `v3`)
+- source material packages (selected public-safe parts may appear later in `v3`)
 - private links
 - local absolute paths
 - third-party example libraries
@@ -98,6 +87,10 @@ In my personal workflow, the strongest results usually come from several skills 
   - compress page logic into clearer layout and visual decisions
 - optional supporting skills
   - such as SVG, visual extraction, and other production-side helpers
+
+I have also already distilled a larger body of references and accumulated more material packs and intermediate assets in the internal workflow.
+
+So the social media version looks stronger not only because of multi-skill coordination, but also because it is built on top of more prepared material.
 
 If you want results closer to my social media demos, a multi-skill workflow is usually necessary. `takeaway-skill` defines the strategy, but it does not replace implementation.
 
@@ -126,20 +119,6 @@ Then use takeaway-skill to distill this reference into something reusable.
 Do not copy surface style directly.
 Place the result into site/index.html so I can review it in the management page.
 ```
-
-### More prompt options
-
-- `Read skill/SKILL.md first, then help me distill this reference into something reusable.`
-- `Use takeaway-skill to study this website. Do not copy surface style. Give me reusable mechanisms and a stronger adaptation route.`
-- `Distill this reference and place the result into site/index.html so I can review it in the management page.`
-
-## How to Apply
-
-1. open `skill/SKILL.md`
-2. choose a site, page, effect, or visual system you want to study
-3. let the agent distill it into reusable mechanisms instead of surface copies
-4. place the distilled result into `site/index.html`
-5. review the result in the page, not only in text output
 
 ## Structure
 
