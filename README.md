@@ -72,6 +72,7 @@ This repository is shared to increase visibility, exchange methods, and make the
 - third-party example libraries
 - private identity details that belong only to the internal workflow
 - any feature for archiving third-party screenshots or recordings inside the public package
+- the `v3.0` upgrade package
 
 ## Why The Social Media Version Looks Stronger
 
