@@ -6,9 +6,10 @@
 </p>
 
 <p align="center">
-  <a href="./site/index.html"><img alt="打开展示页" src="https://img.shields.io/badge/打开-展示页-111111?style=for-the-badge" /></a>
-  <a href="./skill/SKILL.md"><img alt="阅读 Skill" src="https://img.shields.io/badge/阅读-Skill-1f6feb?style=for-the-badge" /></a>
   <a href="https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2"><img alt="观看视频" src="https://img.shields.io/badge/观看-视频-d14836?style=for-the-badge" /></a>
+  <a href="https://github.com/julilaoshi/takeaway-skill"><img alt="给仓库点星" src="https://img.shields.io/badge/给仓库-点星-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
+  <a href="./skill/SKILL.md"><img alt="阅读 Skill" src="https://img.shields.io/badge/阅读-Skill-1f6feb?style=for-the-badge" /></a>
+  <a href="./site/index.html"><img alt="看方法页" src="https://img.shields.io/badge/看-方法页-111111?style=for-the-badge" /></a>
   <a href="#默认使用流"><img alt="如何使用" src="https://img.shields.io/badge/如何-使用-2da44e?style=for-the-badge" /></a>
 </p>
 
@@ -32,9 +33,10 @@
 
 ## 快速开始
 
-- [打开方法展示页](./site/index.html)
-- [阅读公开版 Skill 文件](./skill/SKILL.md)
 - [观看视频讲解](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
+- [给仓库点星](https://github.com/julilaoshi/takeaway-skill)
+- [阅读公开版 Skill 文件](./skill/SKILL.md)
+- [看方法页](./site/index.html)
 
 ## 项目演示
 

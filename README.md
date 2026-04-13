@@ -6,9 +6,10 @@
 </p>
 
 <p align="center">
-  <a href="./site/index.html"><img alt="See Demo" src="https://img.shields.io/badge/See-Demo-111111?style=for-the-badge" /></a>
-  <a href="./skill/SKILL.md"><img alt="Read Skill" src="https://img.shields.io/badge/Read-Skill-1f6feb?style=for-the-badge" /></a>
   <a href="https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2"><img alt="Watch Video" src="https://img.shields.io/badge/Watch-Video-d14836?style=for-the-badge" /></a>
+  <a href="https://github.com/julilaoshi/takeaway-skill"><img alt="Star Repo" src="https://img.shields.io/badge/Star-Repo-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
+  <a href="./skill/SKILL.md"><img alt="Read Skill" src="https://img.shields.io/badge/Read-Skill-1f6feb?style=for-the-badge" /></a>
+  <a href="./site/index.html"><img alt="See Method Page" src="https://img.shields.io/badge/See-Method%20Page-111111?style=for-the-badge" /></a>
   <a href="#default-repository-flow"><img alt="How It Works" src="https://img.shields.io/badge/How-It%20Works-2da44e?style=for-the-badge" /></a>
 </p>
 
@@ -32,9 +33,10 @@ English | [简体中文](./README.zh-CN.md)
 
 ## Start Here
 
-- [Open the method view](./site/index.html)
-- [Read the public skill file](./skill/SKILL.md)
 - [Watch the video walkthrough](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
+- [Star the repository](https://github.com/julilaoshi/takeaway-skill)
+- [Read the public skill file](./skill/SKILL.md)
+- [See the method page](./site/index.html)
 
 ## Project Demo
 
