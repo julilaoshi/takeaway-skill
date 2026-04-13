@@ -9,7 +9,7 @@
   <a href="https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2"><img alt="Watch Video" src="https://img.shields.io/badge/Watch-Video-d14836?style=for-the-badge" /></a>
   <a href="https://github.com/julilaoshi/takeaway-skill"><img alt="Star Repo" src="https://img.shields.io/badge/Star-Repo-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
   <a href="./skill/SKILL.md"><img alt="Read Skill" src="https://img.shields.io/badge/Read-Skill-1f6feb?style=for-the-badge" /></a>
-  <a href="./site/index.html"><img alt="See Method Page" src="https://img.shields.io/badge/See-Method%20Page-111111?style=for-the-badge" /></a>
+  <a href="#how-to-install"><img alt="Install" src="https://img.shields.io/badge/Install-111111?style=for-the-badge" /></a>
   <a href="#default-repository-flow"><img alt="How It Works" src="https://img.shields.io/badge/How-It%20Works-2da44e?style=for-the-badge" /></a>
 </p>
 
@@ -36,6 +36,26 @@ English | [简体中文](./README.zh-CN.md)
 - [Star the repository](https://github.com/julilaoshi/takeaway-skill)
 - [Read the public skill file](./skill/SKILL.md)
 - [Watch the video walkthrough](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
+
+## How to Install
+
+This repository is designed for beginners using Codex, Claude Code, or similar cloud coding agents.
+
+You do not need a package manager to install it.
+
+Just do this:
+
+1. clone or download this repository
+2. open the repository as a workspace in Codex, Claude Code, or your cloud coding environment
+3. point the agent to [`skill/SKILL.md`](./skill/SKILL.md)
+4. optionally let it read files in [`references/`](./references/) for safer output structure
+5. place the distilled result into [`site/index.html`](./site/index.html) so it can be reviewed in a page
+
+### Starter prompts
+
+- `Read skill/SKILL.md first, then help me distill this reference into something reusable.`
+- `Use takeaway-skill to study this website. Do not copy surface style. Give me reusable mechanisms and a stronger adaptation route.`
+- `Distill this reference and place the result into site/index.html so I can review it in the management page.`
 
 ## Project Demo
 

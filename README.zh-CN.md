@@ -9,7 +9,7 @@
   <a href="https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2"><img alt="观看视频" src="https://img.shields.io/badge/观看-视频-d14836?style=for-the-badge" /></a>
   <a href="https://github.com/julilaoshi/takeaway-skill"><img alt="给仓库点星" src="https://img.shields.io/badge/给仓库-点星-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
   <a href="./skill/SKILL.md"><img alt="阅读 Skill" src="https://img.shields.io/badge/阅读-Skill-1f6feb?style=for-the-badge" /></a>
-  <a href="./site/index.html"><img alt="看方法页" src="https://img.shields.io/badge/看-方法页-111111?style=for-the-badge" /></a>
+  <a href="#如何安装"><img alt="如何安装" src="https://img.shields.io/badge/如何-安装-111111?style=for-the-badge" /></a>
   <a href="#默认使用流"><img alt="如何使用" src="https://img.shields.io/badge/如何-使用-2da44e?style=for-the-badge" /></a>
 </p>
 
@@ -36,6 +36,26 @@
 - [给仓库点星](https://github.com/julilaoshi/takeaway-skill)
 - [阅读公开版 Skill 文件](./skill/SKILL.md)
 - [观看视频讲解](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
+
+## 如何安装
+
+这个仓库是给 Codex、Claude Code，或者其他 cloud coding / agent 环境用的。
+
+它不是一个需要 `npm install` 的包，重点不是“装命令”，而是“把 Skill 放进你的工作流里”。
+
+最简单的用法是：
+
+1. 先把这个仓库 clone 下来，或者直接下载到本地
+2. 在 Codex、Claude Code，或者你的 cloud coding 工作区里打开这个仓库
+3. 先让模型阅读 [`skill/SKILL.md`](./skill/SKILL.md)
+4. 如果你想让输出更稳，再让它一起参考 [`references/`](./references/)
+5. 最后把蒸馏结果放进 [`site/index.html`](./site/index.html)，直接在我做的管理页面里查看和演示
+
+### 给小白直接复制的提示词
+
+- `先读 skill/SKILL.md，再帮我把这个参考对象蒸馏成可复用的内容。`
+- `用 takeaway-skill 学一下这个网站，但不要照抄表皮，给我能复用的机制和改造方向。`
+- `把这次蒸馏结果直接放进 site/index.html，我想在管理页面里直接看。`
 
 ## 项目演示
 
