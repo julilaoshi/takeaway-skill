@@ -1,8 +1,8 @@
 # Takeaway Skill / 拿来主义 skill
 
 <p align="center">
-  <strong>别再收藏一堆参考，却最后只停在“看过”。</strong><br />
-  拿来主义 skill 会把网站、动效和视觉系统拆开，让你学成下一次真的能用上的能力，而不是照抄表皮。
+  <strong>别再收藏一堆参考，却最后只停在“下载”。</strong><br />
+  拿来主义 skill 会把网站、动效和视觉系统“整理”，让你复用，可编辑，可修改，可组合，可挪动。
 </p>
 
 <p align="center">
