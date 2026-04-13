@@ -97,13 +97,9 @@
 
 如果你想达到接近我社交媒体展示的效果，通常需要多 Skill 联动。`takeaway-skill` 负责判断路线，但它本身并不替代实现。
 
-## 如何安装
+## 如何安装和使用
 
-这个仓库是给第一次使用 Codex、Claude Code，或者其他 cloud coding / agent 环境的人准备的。
-
-它不是一个靠 `npm install` 跑起来的包。
-
-你需要做的，是把仓库打开，然后让模型先读公开版 skill。
+第一次使用 Codex 或 Claude Code 的用户，参考以下安装方法。
 
 ### 先复制到终端里
 

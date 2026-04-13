@@ -95,13 +95,9 @@ So the social media version looks stronger not only because of multi-skill coord
 
 If you want results closer to my social media demos, a multi-skill workflow is usually necessary. `takeaway-skill` defines the strategy, but it does not replace implementation.
 
-## How to Install
+## How to Install and Use
 
-This repository is for first-time users of Codex, Claude Code, or similar cloud coding agents.
-
-It is not a package you install with `npm install`.
-
-You clone it, open it, and let the agent work from the public skill file.
+If this is your first time using Codex or Claude Code, start here.
 
 ### Copy this in your terminal
 
