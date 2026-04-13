@@ -37,26 +37,6 @@ English | [简体中文](./README.zh-CN.md)
 - [Read the public skill file](./skill/SKILL.md)
 - [Watch the video walkthrough](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
 
-## How to Install
-
-This repository is designed for beginners using Codex, Claude Code, or similar cloud coding agents.
-
-You do not need a package manager to install it.
-
-Just do this:
-
-1. clone or download this repository
-2. open the repository as a workspace in Codex, Claude Code, or your cloud coding environment
-3. point the agent to [`skill/SKILL.md`](./skill/SKILL.md)
-4. optionally let it read files in [`references/`](./references/) for safer output structure
-5. place the distilled result into [`site/index.html`](./site/index.html) so it can be reviewed in a page
-
-### Starter prompts
-
-- `Read skill/SKILL.md first, then help me distill this reference into something reusable.`
-- `Use takeaway-skill to study this website. Do not copy surface style. Give me reusable mechanisms and a stronger adaptation route.`
-- `Distill this reference and place the result into site/index.html so I can review it in the management page.`
-
 ## Project Demo
 
 Watch the full demo on YouTube:
@@ -64,9 +44,9 @@ Watch the full demo on YouTube:
 
 This repository is the public `v1.0` release of `takeaway-skill`.
 
-It is designed as a lightweight GitHub-facing package:
+It works as a public distillation shell:
 
-- a branded site shell
+- a lightweight page shell for hosting distilled entries
 - a public version of the skill
 - safe reference templates
 - an editable framework without real case content
@@ -88,13 +68,10 @@ This repository is shared to increase visibility, exchange methods, and make the
 
 ## What This Repository Includes
 
-- the branded banner site shell
-- the list layout framework
-- an anonymous method view for pattern cards and implementation briefs
-- the local view style
-- one empty template row
+- a lightweight page shell for hosting distilled entries
 - the public version of `takeaway-skill`
-- safe references with no third-party example archive
+- safe reference templates
+- an editable framework without real case content
 
 ## What This Repository Does Not Include
 
@@ -123,6 +100,46 @@ In my personal workflow, the strongest results usually come from several skills 
   - such as SVG, visual extraction, and other production-side helpers
 
 If you want results closer to my social media demos, a multi-skill workflow is usually necessary. `takeaway-skill` defines the strategy, but it does not replace implementation.
+
+## How to Install
+
+This repository is for first-time users of Codex, Claude Code, or similar cloud coding agents.
+
+It is not a package you install with `npm install`.
+
+You clone it, open it, and let the agent work from the public skill file.
+
+### Copy this in your terminal
+
+```bash
+git clone https://github.com/julilaoshi/takeaway-skill.git
+cd takeaway-skill
+```
+
+Then open this folder in Codex, Claude Code, or your cloud coding workspace.
+
+### Copy this into your coding agent
+
+```text
+Read skill/SKILL.md first.
+Then use takeaway-skill to distill this reference into something reusable.
+Do not copy surface style directly.
+Place the result into site/index.html so I can review it in the management page.
+```
+
+### More prompt options
+
+- `Read skill/SKILL.md first, then help me distill this reference into something reusable.`
+- `Use takeaway-skill to study this website. Do not copy surface style. Give me reusable mechanisms and a stronger adaptation route.`
+- `Distill this reference and place the result into site/index.html so I can review it in the management page.`
+
+## How to Apply
+
+1. open `skill/SKILL.md`
+2. choose a site, page, effect, or visual system you want to study
+3. let the agent distill it into reusable mechanisms instead of surface copies
+4. place the distilled result into `site/index.html`
+5. review the result in the page, not only in text output
 
 ## Structure
 
@@ -190,15 +207,6 @@ Public does not mean:
 - third-party recording archive
 - private identity sync
 - private workflow traces copied from the internal version
-
-## Quick Start
-
-1. Open `site/index.html`.
-2. Replace the banner copy and image if needed.
-3. Reuse or adapt `skill/SKILL.md` and the files in `references/`.
-4. Duplicate the template row in `site/index.html` and place your distilled result there.
-5. Replace the placeholder links with real destinations.
-6. Review the final result in the webpage, not only in the text output.
 
 ## Find Julilaoshi
 

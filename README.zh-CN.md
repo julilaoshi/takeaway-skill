@@ -37,26 +37,6 @@
 - [阅读公开版 Skill 文件](./skill/SKILL.md)
 - [观看视频讲解](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
 
-## 如何安装
-
-这个仓库是给 Codex、Claude Code，或者其他 cloud coding / agent 环境用的。
-
-它不是一个需要 `npm install` 的包，重点不是“装命令”，而是“把 Skill 放进你的工作流里”。
-
-最简单的用法是：
-
-1. 先把这个仓库 clone 下来，或者直接下载到本地
-2. 在 Codex、Claude Code，或者你的 cloud coding 工作区里打开这个仓库
-3. 先让模型阅读 [`skill/SKILL.md`](./skill/SKILL.md)
-4. 如果你想让输出更稳，再让它一起参考 [`references/`](./references/)
-5. 最后把蒸馏结果放进 [`site/index.html`](./site/index.html)，直接在我做的管理页面里查看和演示
-
-### 给小白直接复制的提示词
-
-- `先读 skill/SKILL.md，再帮我把这个参考对象蒸馏成可复用的内容。`
-- `用 takeaway-skill 学一下这个网站，但不要照抄表皮，给我能复用的机制和改造方向。`
-- `把这次蒸馏结果直接放进 site/index.html，我想在管理页面里直接看。`
-
 ## 项目演示
 
 <p align="center">
@@ -70,9 +50,9 @@
 
 这是 `takeaway-skill` 的公开 `v1.0` 发布版。
 
-它更像一个面向 GitHub 传播的轻量包，主要包含：
+它更像一个公开版的蒸馏容器壳子，主要包含：
 
-- 一个有品牌感的站点壳子
+- 一个装蒸馏结果的网页壳子
 - 一个公开版 skill
 - 一组安全参考模板
 - 一个不带真实案例内容的可编辑框架
@@ -94,13 +74,10 @@
 
 ## 这个仓库包含什么
 
-- 品牌 banner 站点壳子
-- 列表版式框架
-- 一组匿名方法展示区，可展示 pattern card 与 implementation brief
-- 本地展示样式
-- 一行空模板
-- `takeaway-skill` 的公开版 skill 文件
-- 不带第三方案例库的安全 references
+- 一个装蒸馏结果的网页容器壳子
+- 一个公开版 `takeaway-skill`
+- 一组安全参考模板
+- 一个不带真实案例内容的可编辑框架
 
 ## 这个仓库不包含什么
 
@@ -127,6 +104,46 @@
   - 比如 SVG、主体提取、图形或素材处理相关 skill
 
 如果你想达到接近我社交媒体展示的效果，通常需要多 Skill 联动。`takeaway-skill` 负责判断路线，但它本身并不替代实现。
+
+## 如何安装
+
+这个仓库是给第一次使用 Codex、Claude Code，或者其他 cloud coding / agent 环境的人准备的。
+
+它不是一个靠 `npm install` 跑起来的包。
+
+你需要做的，是把仓库打开，然后让模型先读公开版 skill。
+
+### 先复制到终端里
+
+```bash
+git clone https://github.com/julilaoshi/takeaway-skill.git
+cd takeaway-skill
+```
+
+然后把这个文件夹打开到 Codex、Claude Code，或者你的 cloud coding 工作区里。
+
+### 再复制给你的 coding agent
+
+```text
+先读 skill/SKILL.md。
+再用 takeaway-skill 帮我把这个参考对象蒸馏成可复用的内容。
+不要照抄表皮。
+最后把结果放进 site/index.html，我要在管理页面里直接看。
+```
+
+### 给初学者直接复制的提示词
+
+- `先读 skill/SKILL.md，再帮我把这个参考对象蒸馏成可复用的内容。`
+- `用 takeaway-skill 学一下这个网站，但不要照抄表皮，给我能复用的机制和改造方向。`
+- `把这次蒸馏结果直接放进 site/index.html，我想在管理页面里直接看。`
+
+## 使用方式
+
+1. 打开 `skill/SKILL.md`
+2. 选一个你想研究的网站、页面、效果或视觉系统
+3. 让模型蒸馏出可复用的机制，而不是只复述表皮
+4. 把蒸馏结果回填到 `site/index.html`
+5. 最后在页面里查看结果，而不是只停在文本输出
 
 ## 目录结构
 
@@ -198,15 +215,6 @@
 - 第三方录屏归档
 - 私有身份信息同步
 - 从内部版直接搬运出来的私有研究痕迹
-
-## 使用方式
-
-1. 打开 `site/index.html`
-2. 如有需要，替换 banner 文案和图片
-3. 如需复用判断逻辑，可直接使用或改写 `skill/SKILL.md` 与 `references/`
-4. 复制 `site/index.html` 里的模板行，把蒸馏结果填进去
-5. 把占位链接改成真实链接
-6. 最后用网页查看，而不是只看文本结果
 
 ## 找到居里老师
 
