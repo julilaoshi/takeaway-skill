@@ -117,6 +117,36 @@ Do not copy surface style directly.
 Place the result into site/index.html so I can review it in the management page.
 ```
 
+### Common task prompts
+
+#### If you want to study and distill someone else's webpage
+
+```text
+I want to distill and study this webpage.
+I will paste the link, screenshots, or a screen recording into the chat.
+Read skill/SKILL.md first.
+Do not copy the surface style directly.
+Help me extract the structure, mechanisms, and reusable parts.
+Then place the result into site/index.html so I can review it in HTML.
+```
+
+#### If you want a parameter panel on the right for visual effects
+
+```text
+I want a control panel on the right side for adjustable visual effects.
+Please add a live effect control area to the current page.
+The parameters can include intensity, speed, size, and opacity.
+Write the result directly into site/index.html so I can tweak it in HTML.
+```
+
+#### If you want to review the result directly in HTML
+
+```text
+Do not give me a text-only answer.
+Place the result directly into site/index.html.
+After editing, tell me what I should check in the HTML page.
+```
+
 ## Structure
 
 - `site/index.html` - main entry page
