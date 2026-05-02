@@ -452,6 +452,63 @@
         font-size: 13px;
         line-height: 1.75;
       }
+      .result-zone {
+        display: grid;
+        grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+        gap: 18px;
+        margin-top: 22px;
+      }
+      .result-zone-card {
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.72);
+      }
+      .result-zone-body {
+        display: grid;
+        gap: 14px;
+        padding: 16px;
+      }
+      .result-zone-body p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.75;
+      }
+      .zone-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .zone-actions a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 36px;
+        padding: 0 12px;
+        border: 1px solid var(--line);
+        color: var(--ink);
+        text-decoration: none;
+        font-size: 12px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        background: #fff;
+      }
+      .zone-actions a:hover {
+        background: #111111;
+        color: #ffffff;
+      }
+      .zone-list {
+        display: grid;
+        gap: 8px;
+      }
+      .zone-list strong {
+        font-size: 12px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      .zone-list ul {
+        margin: 0;
+        padding-left: 18px;
+        color: var(--muted);
+        line-height: 1.75;
+      }
       @media (max-width: 1080px) {
         .masthead {
           grid-template-columns: 1fr;
@@ -492,6 +549,9 @@
           justify-content: flex-start;
         }
         .method-grid {
+          grid-template-columns: 1fr;
+        }
+        .result-zone {
           grid-template-columns: 1fr;
         }
       }
@@ -585,6 +645,7 @@
             </div>
             <div class="hero-meta" aria-label="distill summary">
               <span>public method pack</span>
+              <span>v2.0</span>
               <span>pattern cards</span>
               <span>implementation brief</span>
               <span>public-safe scaffold</span>
@@ -742,6 +803,58 @@
           </div>
           <div class="safe-note">
             The public brief shows output shape only. Internal workflows may keep richer local evidence, but that material should stay private and never be shipped as part of this repository.
+          </div>
+        </article>
+      </section>
+
+      <div class="section-head" style="margin-top: 22px;">
+        <strong>Result Zone</strong>
+        <span>where beginners should look first after distillation</span>
+      </div>
+
+      <section class="result-zone" aria-label="public v2 result zone">
+        <article class="result-zone-card">
+          <div class="method-card-head">
+            <strong>takeaway_is_here</strong>
+            <span>default user result zone<br />easier to find than digging through templates</span>
+          </div>
+          <div class="result-zone-body">
+            <p>
+              In public <strong>v2.0</strong>, users should no longer treat <code>references/</code> as their long-term result library.
+              The default place to store working takeaway results is <code>takeaway_is_here/</code>.
+            </p>
+            <div class="zone-actions">
+              <a href="../takeaway_is_here/OPEN_HOME.html">Open Home Shortcut</a>
+              <a href="../takeaway_is_here/README.md">Read Result Guide</a>
+            </div>
+          </div>
+          <div class="safe-note">
+            Keep templates in <code>references/</code>. Keep user outputs in <code>takeaway_is_here/</code>. Keep the public shell in <code>site/index.html</code>.
+          </div>
+        </article>
+
+        <article class="result-zone-card">
+          <div class="method-card-head">
+            <strong>Folder roles</strong>
+            <span>small clear split<br />good for beginners and for future maintenance</span>
+          </div>
+          <div class="result-zone-body">
+            <div class="zone-list">
+              <strong>references/</strong>
+              <ul>
+                <li>method templates</li>
+                <li>taxonomy</li>
+                <li>safe output scaffolds</li>
+              </ul>
+            </div>
+            <div class="zone-list">
+              <strong>takeaway_is_here/</strong>
+              <ul>
+                <li>distilled_entries/</li>
+                <li>implementation_briefs/</li>
+                <li>assets/</li>
+              </ul>
+            </div>
           </div>
         </article>
       </section>

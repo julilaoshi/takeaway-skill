@@ -59,14 +59,17 @@ The default expectation is:
 
 1. distill the reference
 2. turn the result into a reusable entry or placeholder block
-3. place it into `site/index.html`
-4. review it through the webpage instead of treating the skill output as the final destination
+3. place the working result into `takeaway_is_here/distilled_entries/`
+4. use `takeaway_is_here/OPEN_HOME.html` as the beginner-friendly entry
+5. only mirror the public-safe showcase layer into `site/index.html`
+6. review it through the webpage instead of treating the skill output as the final destination
 
 In short:
 
 - `skill/SKILL.md` defines the reasoning method
 - `references/` provides safe templates
-- `site/index.html` is the public-facing place where distilled results should be displayed
+- `takeaway_is_here/` is the default result zone
+- `site/index.html` is the public-facing showcase shell
 
 ## 3. Default Workflow
 
@@ -250,7 +253,20 @@ When handing off, always include:
 4. what the smallest valid result is
 5. what the stop-loss condition is
 
-If the repository already contains a site shell, the default public handoff target is the entry structure inside `site/index.html`.
+If the repository already contains a site shell, the default public workflow is:
+
+1. save working outputs into `takeaway_is_here/distilled_entries/`
+2. keep beginner entry routing in `takeaway_is_here/OPEN_HOME.html`
+3. mirror only the public-safe showcase layer into `site/index.html`
+
+### 7.1 Public v2.0 output boundary
+
+For the public `v2.0` package:
+
+1. `references/` is for method templates, not for the user's long-term distilled result library.
+2. `takeaway_is_here/` is the default place to store user-facing distilled outputs.
+3. `takeaway_is_here/OPEN_HOME.html` is the beginner-safe shortcut back to the homepage.
+4. `site/index.html` should be treated as the public showcase shell, not the only storage location for every result.
 
 ## 8. Boundaries
 

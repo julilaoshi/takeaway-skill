@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  当前公开的是 <code>v1.0</code>。我社交媒体里展示的版本，更接近内部的 <code>v3</code> 工作流。
+  当前公开的是 <code>v2.0</code>。我社交媒体里展示的版本，更接近内部的 <code>v3</code> 工作流。
 </p>
 
 [English](./README.md) | 简体中文
@@ -64,7 +64,8 @@
 - 一个公开版 `takeaway-skill`
 - 一组安全参考模板
 - 一个不带真实案例内容的可编辑框架
-- 当前公开的是 `v1.0`
+- 当前公开的是 `v2.0`
+- 一个给小白准备的默认结果区 `takeaway_is_here/`
 
 ## 这个仓库不包含什么
 
@@ -148,7 +149,8 @@ cd takeaway-skill
 先读 skill/SKILL.md。
 再用 takeaway-skill 帮我把这个参考对象蒸馏成可复用的内容。
 不要照抄表皮。
-最后把结果放进 site/index.html，我要在管理页面里直接看。
+先把结果放进 takeaway_is_here/distilled_entries/。
+如果值得公开展示，再整理一份 public-safe 版本放进 site/index.html。
 ```
 
 ### 常见任务提示词
@@ -160,7 +162,8 @@ cd takeaway-skill
 我会把网页链接、截图或者录屏发到窗口里。
 请先读 skill/SKILL.md。
 不要照抄表皮，帮我拆成结构、机制、可复用部分。
-最后把整理后的结果放进 site/index.html，我要在 HTML 页面里看。
+先把整理后的结果放进 takeaway_is_here/distilled_entries/。
+如果值得公开展示，再回填到 site/index.html。
 ```
 
 #### 如果你想在右边加一个可以调特效的面板
@@ -169,14 +172,16 @@ cd takeaway-skill
 我想在页面右边加一个可以调参数的特效面板。
 请基于当前页面，帮我加一个能实时调节效果的控制区。
 参数可以包括强度、速度、尺寸、透明度这些。
-最后把结果直接写进 site/index.html，我要在 HTML 里直接调和看。
+先把工作结果写进 takeaway_is_here/distilled_entries/。
+如果要做公开展示，再把干净版本写进 site/index.html。
 ```
 
 #### 如果你想最后直接在 HTML 里看结果
 
 ```text
 请不要只给我文本说明。
-把这次结果直接落到 site/index.html。
+先把这次结果落到 takeaway_is_here/distilled_entries/。
+如果需要公开展示，再另外更新 site/index.html。
 改完后告诉我应该在 HTML 页面里看什么变化。
 ```
 
@@ -187,6 +192,7 @@ cd takeaway-skill
 - `site/ui/`：本地 UI 样式
 - `skill/SKILL.md`：公开版 skill 文件
 - `references/`：安全模板与公开边界说明
+- `takeaway_is_here/`：默认结果区与快捷入口
 - `agents/openai.yaml`：skill 的 UI 元数据
 
 ## 发布辅助
@@ -202,14 +208,38 @@ cd takeaway-skill
 
 1. 用 `skill/SKILL.md` 做蒸馏判断
 2. 用 `references/` 里的安全模板整理输出
-3. 把蒸馏后的结果回填到 `site/index.html` 的条目结构里
-4. 最后通过网页查看结果，而不是只停在文本输出
+3. 先把工作结果存到 `takeaway_is_here/distilled_entries/`
+4. 用 `takeaway_is_here/OPEN_HOME.html` 作为最容易找到的主页快捷入口
+5. 再把适合公开展示的 public-safe 结果回填到 `site/index.html`
+6. 最后通过网页查看结果，而不是只停在文本输出
 
 也就是说：
 
 - `skill/SKILL.md` 管方法
 - `references/` 管模板
+- `takeaway_is_here/` 管用户结果区
 - `site/index.html` 管最终公开展示
+
+## 你的蒸馏结果默认放哪里
+
+public `v2.0` 现在明确分开三层：
+
+- `references/`
+  - 方法模板
+  - taxonomy
+  - 输出骨架
+  - 边界说明
+- `takeaway_is_here/`
+  - 你的默认结果区
+  - 以后找不到自己蒸馏结果时，先看这里
+- `site/index.html`
+  - 对外展示壳子
+
+记住这三句就行：
+
+- `references/` 不是你的长期结果库
+- 你的蒸馏结果默认放进 `takeaway_is_here/`
+- `OPEN_HOME.html` 是给小白准备的主页快捷入口
 
 ## 语言策略
 

@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  Public <code>v1.0</code> now. The versions shown on my social media are closer to an internal <code>v3</code> workflow.
+  Public <code>v2.0</code> now. The versions shown on my social media are closer to an internal <code>v3</code> workflow.
 </p>
 
 English | [简体中文](./README.zh-CN.md)
@@ -60,7 +60,8 @@ This repository is shared to increase visibility, exchange methods, and make the
 - the public version of `takeaway-skill`
 - safe reference templates
 - an editable framework without real case content
-- the current public `v1.0` release
+- the current public `v2.0` release
+- a beginner-safe default result zone in `takeaway_is_here/`
 
 ## What This Repository Does Not Include
 
@@ -146,7 +147,8 @@ Then copy this into your coding agent:
 Read skill/SKILL.md first.
 Then use takeaway-skill to distill this reference into something reusable.
 Do not copy surface style directly.
-Place the result into site/index.html so I can review it in the management page.
+Place the public-safe result into takeaway_is_here/distilled_entries/ first.
+Then update site/index.html if a public showcase entry is worth keeping.
 ```
 
 ### Common task prompts
@@ -159,7 +161,8 @@ I will paste the link, screenshots, or a screen recording into the chat.
 Read skill/SKILL.md first.
 Do not copy the surface style directly.
 Help me extract the structure, mechanisms, and reusable parts.
-Then place the result into site/index.html so I can review it in HTML.
+Then save the working result into takeaway_is_here/distilled_entries/.
+Only mirror the public-safe version into site/index.html if it is suitable for showcase.
 ```
 
 #### If you want a parameter panel on the right for visual effects
@@ -168,14 +171,16 @@ Then place the result into site/index.html so I can review it in HTML.
 I want a control panel on the right side for adjustable visual effects.
 Please add a live effect control area to the current page.
 The parameters can include intensity, speed, size, and opacity.
-Write the result directly into site/index.html so I can tweak it in HTML.
+Write the working result into takeaway_is_here/distilled_entries/ first.
+If needed, also add a cleaned public-safe version into site/index.html for showcase.
 ```
 
 #### If you want to review the result directly in HTML
 
 ```text
 Do not give me a text-only answer.
-Place the result directly into site/index.html.
+Place the working result into takeaway_is_here/distilled_entries/.
+If needed, add a separate public-safe showcase block into site/index.html.
 After editing, tell me what I should check in the HTML page.
 ```
 
@@ -186,6 +191,7 @@ After editing, tell me what I should check in the HTML page.
 - `site/ui/` - local UI styles
 - `skill/SKILL.md` - the public skill file
 - `references/` - safe templates and public release guidance
+- `takeaway_is_here/` - beginner-friendly result zone and quick entry
 - `agents/openai.yaml` - UI metadata for the skill
 
 ## Release Helpers
@@ -201,10 +207,33 @@ The default flow is:
 
 1. use `skill/SKILL.md` to distill a reference
 2. use `references/` as the safe output scaffold
-3. place the distilled result into the entry structure in `site/index.html`
-4. review the result through the webpage
+3. save the working result into `takeaway_is_here/distilled_entries/`
+4. use `takeaway_is_here/OPEN_HOME.html` as the easiest place to reopen the package
+5. mirror only the public-safe showcase layer into `site/index.html`
+6. review the result through the webpage
 
-If someone only reads the skill file and never updates `site/index.html`, they are only using half of this repository.
+If someone only reads the skill file and never uses `takeaway_is_here/`, they will lose the most beginner-friendly part of the package.
+
+## Where Your Distilled Results Go
+
+For public `v2.0`, the repository now separates:
+
+- `references/`
+  - method templates
+  - taxonomy
+  - output scaffolds
+  - release safety notes
+- `takeaway_is_here/`
+  - your own distilled output zone
+  - the easiest place to look first if you cannot find your result
+- `site/index.html`
+  - the public-facing showcase shell
+
+In short:
+
+- `references/` is not your long-term output library
+- `takeaway_is_here/` is where your generated takeaway results should go by default
+- `OPEN_HOME.html` inside `takeaway_is_here/` is the beginner-friendly shortcut back to the homepage
 
 ## Language Strategy
 

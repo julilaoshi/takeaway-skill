@@ -64,12 +64,16 @@
 - [ ] public 没有真实站点案例库
 - [ ] public 没有自动同步 local research 的机制说明
 - [ ] public 展示的是方法、模板、占位符，而不是 private workflow 全量镜像
+- [ ] `references/` 仍然只被定义为模板区，而不是用户结果库
+- [ ] `takeaway_is_here/` 已明确为默认结果区
+- [ ] `OPEN_HOME.html` 已明确为小白主页快捷入口
 
 未通过时怎么改：
 
 - 删除功能描述
 - 改成匿名 scaffold
 - 把 richer workflow 留在 internal
+- 把用户结果与模板区重新拆开
 
 ## E. 道德与误导检查
 
