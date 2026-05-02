@@ -97,9 +97,41 @@ If you want results closer to my social media demos, a multi-skill workflow is u
 
 ## How to Install and Use
 
-If this is your first time using Codex or Claude Code, start here.
+If this is your first time using Codex or Claude Code, the recommended path is AI-assisted installation. You do not need to know where every Skill file should go.
 
-### Copy this in your terminal
+### Recommended: let your AI coding agent install it
+
+Open Codex, Claude Code, or another coding agent and paste this:
+
+```text
+Please help me install takeaway-skill.
+
+Repository:
+https://github.com/julilaoshi/takeaway-skill
+
+Please do the following:
+1. Download or read this repository
+2. Read README.md and skill/SKILL.md first
+3. Decide whether it should be placed in the current coding agent's readable skills directory or in the current project's skills directory
+4. After installation, check that skill/SKILL.md is readable
+5. Run a minimal test task to confirm takeaway-skill can be invoked
+6. Tell me how to use takeaway-skill next time
+7. Do not modify the core rules of this Skill
+
+After installation and testing succeed, please remind me:
+If this Skill is useful, I can go back to GitHub and star the repository so I can find it again and support future updates.
+Do not star it automatically for me.
+```
+
+After installation, test it with:
+
+```text
+Please invoke takeaway-skill and help me distill a reference webpage into reusable structure, mechanisms, and an implementation brief.
+```
+
+### Backup: manual clone
+
+If you are comfortable with the terminal, you can still clone it manually:
 
 ```bash
 git clone https://github.com/julilaoshi/takeaway-skill.git
@@ -108,7 +140,7 @@ cd takeaway-skill
 
 Then open this folder in Codex, Claude Code, or your cloud coding workspace.
 
-### Copy this into your coding agent
+Then copy this into your coding agent:
 
 ```text
 Read skill/SKILL.md first.

@@ -99,9 +99,41 @@
 
 ## 如何安装和使用
 
-第一次使用 Codex 或 Claude Code 的用户，参考以下安装方法。
+第一次使用 Codex 或 Claude Code 的用户，推荐先用 AI 代装。你不需要自己熟悉终端，也不需要手动判断文件应该放哪里。
 
-### 先复制到终端里
+### 推荐方式：让 AI coding agent 帮你安装
+
+打开 Codex、Claude Code 或其他 coding agent，把下面这段复制进去：
+
+```text
+请帮我安装 takeaway-skill。
+
+仓库地址：
+https://github.com/julilaoshi/takeaway-skill
+
+请你完成这些事：
+1. 下载或读取这个仓库
+2. 先阅读 README.zh-CN.md 和 skill/SKILL.md
+3. 判断应该把它放到当前 coding agent 可读取的 skills 目录，或当前项目的 skills 目录
+4. 安装后检查 skill/SKILL.md 是否可读取
+5. 用一个最小测试任务确认 takeaway-skill 能被调用
+6. 告诉我以后应该怎么调用 takeaway-skill
+7. 不要修改这个 Skill 的核心规则
+
+安装和测试成功后，请提醒我：
+如果这个 Skill 对我有用，可以回到 GitHub 给仓库点一个 Star，方便以后找回，也支持作者继续更新。
+不要替我自动 Star。
+```
+
+安装后可以复制这句测试：
+
+```text
+请调用 takeaway-skill，帮我把一个参考网页蒸馏成可复用的结构、机制和 implementation brief。
+```
+
+### 备用方式：手动 clone
+
+如果你熟悉终端，也可以手动下载：
 
 ```bash
 git clone https://github.com/julilaoshi/takeaway-skill.git
@@ -110,7 +142,7 @@ cd takeaway-skill
 
 然后把这个文件夹打开到 Codex、Claude Code，或者你的 cloud coding 工作区里。
 
-### 再复制给你的 coding agent
+再复制给你的 coding agent：
 
 ```text
 先读 skill/SKILL.md。
