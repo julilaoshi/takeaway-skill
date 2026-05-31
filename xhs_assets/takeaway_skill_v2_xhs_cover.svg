@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7e8"/>
+      <stop offset="0.48" stop-color="#f5f1e7"/>
+      <stop offset="1" stop-color="#d7f2ee"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#1f2933" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; }
+      .title { font-weight: 900; fill: #111827; letter-spacing: 0; }
+      .sub { font-weight: 700; fill: #24323d; letter-spacing: 0; }
+      .small { font-weight: 600; fill: #52616b; letter-spacing: 0; }
+      .label { font-weight: 800; fill: #111827; letter-spacing: 0; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-weight: 800; }
+    </style>
+  </defs>
+
+  <rect width="1080" height="1440" fill="url(#bg)"/>
+  <rect x="54" y="54" width="972" height="1332" rx="38" fill="#ffffff" opacity="0.62"/>
+
+  <g opacity="0.95">
+    <circle cx="908" cy="172" r="92" fill="#38bdf8" opacity="0.2"/>
+    <circle cx="172" cy="1210" r="118" fill="#fb7185" opacity="0.14"/>
+    <path d="M782 1120 C894 1078 964 1126 1002 1214" fill="none" stroke="#14b8a6" stroke-width="18" stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <g transform="translate(94 94)">
+    <rect x="0" y="0" width="242" height="58" rx="29" fill="#111827"/>
+    <text class="sans mono" x="32" y="38" font-size="26" fill="#f8fafc">PUBLIC v2.0</text>
+  </g>
+
+  <g transform="translate(92 198)">
+    <text class="sans title" x="0" y="0" font-size="92">别再收藏</text>
+    <text class="sans title" x="0" y="112" font-size="92">参考图了</text>
+    <rect x="4" y="146" width="702" height="28" rx="14" fill="#facc15"/>
+    <text class="sans title" x="0" y="282" font-size="82">你缺的是</text>
+    <text class="sans title" x="0" y="382" font-size="108" fill="#ef4444">拆解能力</text>
+  </g>
+
+  <g transform="translate(92 648)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="896" height="324" rx="30" fill="#111827"/>
+    <g transform="translate(48 48)">
+      <text class="sans sub" x="0" y="0" font-size="34" fill="#e5e7eb">Takeaway Skill 升级后，不是帮你抄</text>
+      <text class="sans title" x="0" y="74" font-size="62" fill="#ffffff">而是把“这个好看”</text>
+      <text class="sans title" x="0" y="150" font-size="62" fill="#ffffff">变成“我会用了”</text>
+      <g transform="translate(0 206)">
+        <rect x="0" y="0" width="178" height="52" rx="26" fill="#2dd4bf"/>
+        <text class="sans label" x="42" y="35" font-size="25">拆结构</text>
+        <rect x="206" y="0" width="178" height="52" rx="26" fill="#f97316"/>
+        <text class="sans label" x="248" y="35" font-size="25">拆机制</text>
+        <rect x="412" y="0" width="178" height="52" rx="26" fill="#facc15"/>
+        <text class="sans label" x="454" y="35" font-size="25">拆边界</text>
+        <rect x="618" y="0" width="178" height="52" rx="26" fill="#93c5fd"/>
+        <text class="sans label" x="660" y="35" font-size="25">再改造</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(94 1036)">
+    <g>
+      <rect x="0" y="0" width="270" height="160" rx="24" fill="#fff7ed" stroke="#fdba74" stroke-width="4"/>
+      <text class="sans label" x="30" y="50" font-size="32">升级前</text>
+      <text class="sans small" x="30" y="98" font-size="27">看到好东西</text>
+      <text class="sans small" x="30" y="134" font-size="27">只会说好看</text>
+    </g>
+    <path d="M318 80 H410" stroke="#111827" stroke-width="12" stroke-linecap="round"/>
+    <path d="M390 50 L430 80 L390 110" fill="none" stroke="#111827" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(474 0)">
+      <rect x="0" y="0" width="414" height="160" rx="24" fill="#ecfeff" stroke="#22d3ee" stroke-width="4"/>
+      <text class="sans label" x="30" y="50" font-size="32">升级后</text>
+      <text class="sans small" x="30" y="98" font-size="27">拆出 pattern card</text>
+      <text class="sans small" x="30" y="134" font-size="27">变成自己的方法库</text>
+    </g>
+  </g>
+
+  <g transform="translate(94 1266)">
+    <rect x="0" y="0" width="892" height="76" rx="24" fill="#ffffff" stroke="#111827" stroke-width="4"/>
+    <text class="sans sub" x="32" y="49" font-size="29">拿来主义不是照抄，是把参考蒸馏成你的能力。</text>
+  </g>
+</svg>
