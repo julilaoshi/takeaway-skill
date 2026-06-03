@@ -9,7 +9,7 @@
   <a href="https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2"><img alt="观看视频" src="https://img.shields.io/badge/观看-视频-d14836?style=for-the-badge" /></a>
   <a href="https://github.com/julilaoshi/takeaway-skill"><img alt="给仓库点星" src="https://img.shields.io/badge/给仓库-点星-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
   <a href="./skill/SKILL.md"><img alt="阅读 Skill" src="https://img.shields.io/badge/阅读-Skill-1f6feb?style=for-the-badge" /></a>
-  <a href="#如何安装"><img alt="如何安装" src="https://img.shields.io/badge/如何-安装-111111?style=for-the-badge" /></a>
+  <a href="#如何载入和使用"><img alt="载入 Skill" src="https://img.shields.io/badge/载入-Skill-111111?style=for-the-badge" /></a>
   <a href="#默认使用流"><img alt="如何使用" src="https://img.shields.io/badge/如何-使用-2da44e?style=for-the-badge" /></a>
 </p>
 
@@ -98,35 +98,37 @@
 
 如果你想达到接近我社交媒体展示的效果，通常需要多 Skill 联动。`takeaway-skill` 负责判断路线，但它本身并不替代实现。
 
-## 如何安装和使用
+## 如何载入和使用
 
-第一次使用 Codex 或 Claude Code 的用户，推荐先用 AI 代装。你不需要自己熟悉终端，也不需要手动判断文件应该放哪里。
+`takeaway-skill` 是 Skill / 工作流层，不是包安装器，也不是 App 安装器或环境搭建脚本。
 
-### 推荐方式：让 AI coding agent 帮你安装
+第一次使用 Codex 或 Claude Code 的用户，推荐先让 AI 帮你载入。它只需要读取 Skill 文件，并确认当前会话能访问。
+
+### 推荐方式：让 AI coding agent 帮你载入
 
 打开 Codex、Claude Code 或其他 coding agent，把下面这段复制进去：
 
 ```text
-请帮我安装 takeaway-skill。
+请帮我载入 takeaway-skill。
 
 仓库地址：
 https://github.com/julilaoshi/takeaway-skill
 
 请你完成这些事：
-1. 下载或读取这个仓库
+1. 读取这个仓库；如果当前已经打开本地文件夹，就读取当前本地文件夹
 2. 先阅读 README.zh-CN.md 和 skill/SKILL.md
-3. 判断应该把它放到当前 coding agent 可读取的 skills 目录，或当前项目的 skills 目录
-4. 安装后检查 skill/SKILL.md 是否可读取
-5. 用一个最小测试任务确认 takeaway-skill 能被调用
-6. 告诉我以后应该怎么调用 takeaway-skill
-7. 不要修改这个 Skill 的核心规则
+3. 确认当前 agent 可以读取 skill/SKILL.md
+4. 简短告诉我以后应该怎么调用 takeaway-skill
+5. 不要运行 npm install、pip install、build、setup 或任何长安装脚本
+6. 不要修改这个 Skill 的核心规则
+7. 如果当前会话访问不到本地工具、MCP、桌面 App 或仓库文件，请说明原因并停下，不要反复尝试
 
-安装和测试成功后，请提醒我：
+载入成功后，请提醒我：
 如果这个 Skill 对我有用，可以回到 GitHub 给仓库点一个 Star，方便以后找回，也支持作者继续更新。
 不要替我自动 Star。
 ```
 
-安装后可以复制这句测试：
+可选下一步：再单独复制这句测试：
 
 ```text
 请调用 takeaway-skill，帮我把一个参考网页蒸馏成可复用的结构、机制和 implementation brief。

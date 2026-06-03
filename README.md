@@ -9,7 +9,7 @@
   <a href="https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2"><img alt="Watch Video" src="https://img.shields.io/badge/Watch-Video-d14836?style=for-the-badge" /></a>
   <a href="https://github.com/julilaoshi/takeaway-skill"><img alt="Star Repo" src="https://img.shields.io/badge/Star-Repo-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
   <a href="./skill/SKILL.md"><img alt="Read Skill" src="https://img.shields.io/badge/Read-Skill-1f6feb?style=for-the-badge" /></a>
-  <a href="#how-to-install"><img alt="Install" src="https://img.shields.io/badge/Install-111111?style=for-the-badge" /></a>
+  <a href="#how-to-load-and-use"><img alt="Load Skill" src="https://img.shields.io/badge/Load-Skill-111111?style=for-the-badge" /></a>
   <a href="#default-repository-flow"><img alt="How It Works" src="https://img.shields.io/badge/How-It%20Works-2da44e?style=for-the-badge" /></a>
 </p>
 
@@ -96,35 +96,37 @@ So the social media version looks stronger not only because of multi-skill coord
 
 If you want results closer to my social media demos, a multi-skill workflow is usually necessary. `takeaway-skill` defines the strategy, but it does not replace implementation.
 
-## How to Install and Use
+## How to Load and Use
 
-If this is your first time using Codex or Claude Code, the recommended path is AI-assisted installation. You do not need to know where every Skill file should go.
+`takeaway-skill` is a Skill/workflow layer. It is not a package installer, app installer, or environment setup script.
 
-### Recommended: let your AI coding agent install it
+If this is your first time using Codex or Claude Code, the recommended path is AI-assisted loading. You only need the coding agent to read the Skill file and confirm it can access it.
+
+### Recommended: let your AI coding agent load it
 
 Open Codex, Claude Code, or another coding agent and paste this:
 
 ```text
-Please help me install takeaway-skill.
+Please help me load takeaway-skill.
 
 Repository:
 https://github.com/julilaoshi/takeaway-skill
 
 Please do the following:
-1. Download or read this repository
+1. Read this repository or the local folder if it is already open
 2. Read README.md and skill/SKILL.md first
-3. Decide whether it should be placed in the current coding agent's readable skills directory or in the current project's skills directory
-4. After installation, check that skill/SKILL.md is readable
-5. Run a minimal test task to confirm takeaway-skill can be invoked
-6. Tell me how to use takeaway-skill next time
-7. Do not modify the core rules of this Skill
+3. Confirm that skill/SKILL.md is readable by the current agent
+4. Explain briefly how I should invoke takeaway-skill next time
+5. Do not run npm install, pip install, build, setup, or any long installation script
+6. Do not modify the core rules of this Skill
+7. If you cannot access local tools, MCP, the desktop app, or the repository files in this session, say so and stop instead of retrying repeatedly
 
-After installation and testing succeed, please remind me:
+After loading succeeds, please remind me:
 If this Skill is useful, I can go back to GitHub and star the repository so I can find it again and support future updates.
 Do not star it automatically for me.
 ```
 
-After installation, test it with:
+Optional next step: test it with:
 
 ```text
 Please invoke takeaway-skill and help me distill a reference webpage into reusable structure, mechanisms, and an implementation brief.

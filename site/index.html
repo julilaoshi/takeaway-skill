@@ -857,6 +857,35 @@
             </div>
           </div>
         </article>
+
+        <article class="result-zone-card">
+          <div class="method-card-head">
+            <strong>Load the Skill</strong>
+            <span>read the workflow file<br />do not run installers</span>
+          </div>
+          <div class="result-zone-body">
+            <p>
+              Takeaway Skill is a Skill/workflow layer, not a package installer or app installer.
+              Ask your coding agent to read <code>skill/SKILL.md</code>, confirm it is readable, and then stop.
+              Keep any test task as a separate next step.
+            </p>
+            <div class="zone-list">
+              <strong>Do not run</strong>
+              <ul>
+                <li>npm install</li>
+                <li>pip install</li>
+                <li>build or setup scripts</li>
+              </ul>
+            </div>
+            <div class="zone-list">
+              <strong>If access fails</strong>
+              <ul>
+                <li>say which local tool, MCP, desktop app, or file is unavailable</li>
+                <li>stop instead of retrying repeatedly</li>
+              </ul>
+            </div>
+          </div>
+        </article>
       </section>
     </div>
     <script>
