@@ -23,81 +23,6 @@
 
 [English](./README.md) | 简体中文
 
-## 它真正帮你做到什么
-
-- 看到好的网站、设计、交互，不再只收藏
-- 直接把它蒸馏成自己本地可复用的内容
-- 蒸馏完的东西统一放进我做的管理页面里
-- 方便管理、查看、演示，也方便后面继续改
-- 再配合其他 skill 联动，慢慢实现自动蒸馏、自动设计和自动调用素材
-
-## 快速开始
-
-- [给仓库点星](https://github.com/julilaoshi/takeaway-skill)
-- [阅读公开版 Skill 文件](./skill/SKILL.md)
-- [观看视频讲解](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
-
-## 项目演示
-
-<p align="center">
-  <a href="https://youtu.be/BoX5lhy0al4">
-    <img src="./site/assets/project_demo_cover.jpg" alt="观看项目演示" width="76%" />
-  </a>
-</p>
-
-## 这个仓库为什么存在
-
-`takeaway-skill` 的目标，不是偷别人的表皮去卖钱。
-
-它真正想做的是：
-
-- 更快学习
-- 更准地研究参考对象
-- 把机制和表皮分开
-- 把好思路改造成更强的原创结果
-
-这个仓库公开出来，更多是为了传播方法、增加可见度和促进交流。
-
-## 这个仓库包含什么
-
-- 一个装蒸馏结果的网页容器壳子
-- 一个公开版 `takeaway-skill`
-- 一组安全参考模板
-- 一个不带真实案例内容的可编辑框架
-- 当前公开的是 `v2.0`
-- 一个给小白准备的默认结果区 `takeaway_is_here/`
-
-## 这个仓库不包含什么
-
-- 真实案例
-- 私有研究归档（其中不涉及隐私和版权风险的部分，会在未来 `v3` 逐步发布）
-- 来源素材包（其中可公开的部分，会在未来 `v3` 逐步发布）
-- 私有链接
-- 本地绝对路径
-- 第三方案例库
-- `V3.0` 的升级包
-
-## 为什么社交媒体里的版本看起来更强
-
-这个公开仓库主要聚焦在 `takeaway-skill` 本身。
-
-但在我自己的工作流里，最佳效果通常来自多个 skill 联动，比如：
-
-- `takeaway-skill`
-  - 负责判断什么值得拿、什么不能直接照抄
-- `codingskill`
-  - 负责读网站代码、重建结构、做出可运行的还原或改造版本
-- `static-design-skill`
-  - 负责把页面逻辑进一步压缩成更清楚的版式和视觉决策
-- 其他辅助 skill
-  - 比如 SVG、主体提取、图形或素材处理相关 skill
-
-另外，我已经提前蒸馏了很多内容，也积累了更多素材包和中间资产。
-
-所以社交媒体里的版本看起来更强，不只是因为多个 skill 联动，也因为它已经站在更多已整理内容的基础上继续长。
-
-如果你想达到接近我社交媒体展示的效果，通常需要多 Skill 联动。`takeaway-skill` 负责判断路线，但它本身并不替代实现。
-
 ## 如何载入和使用
 
 `takeaway-skill` 是 Skill / 工作流层，不是包安装器，也不是 App 安装器或环境搭建脚本。
@@ -202,6 +127,81 @@ cd takeaway-skill
 - [GITHUB_ABOUT_SUGGESTION.md](./GITHUB_ABOUT_SUGGESTION.md)：GitHub description 与 topics 建议
 - [PUBLIC_RELEASE_CHECKLIST.md](./PUBLIC_RELEASE_CHECKLIST.md)：发布前最终检查表
 
+## 它真正帮你做到什么
+
+- 看到好的网站、设计、交互，不再只收藏
+- 直接把它蒸馏成自己本地可复用的内容
+- 蒸馏完的东西统一放进我做的管理页面里
+- 方便管理、查看、演示，也方便后面继续改
+- 再配合其他 skill 联动，慢慢实现自动蒸馏、自动设计和自动调用素材
+
+## 项目演示
+
+<p align="center">
+  <a href="https://youtu.be/BoX5lhy0al4">
+    <img src="./site/assets/project_demo_cover.jpg" alt="观看项目演示" width="76%" />
+  </a>
+</p>
+
+## 快速开始
+
+- [给仓库点星](https://github.com/julilaoshi/takeaway-skill)
+- [阅读公开版 Skill 文件](./skill/SKILL.md)
+- [观看视频讲解](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
+
+## 这个仓库为什么存在
+
+`takeaway-skill` 的目标，不是偷别人的表皮去卖钱。
+
+它真正想做的是：
+
+- 更快学习
+- 更准地研究参考对象
+- 把机制和表皮分开
+- 把好思路改造成更强的原创结果
+
+这个仓库公开出来，更多是为了传播方法、增加可见度和促进交流。
+
+## 这个仓库包含什么
+
+- 一个装蒸馏结果的网页容器壳子
+- 一个公开版 `takeaway-skill`
+- 一组安全参考模板
+- 一个不带真实案例内容的可编辑框架
+- 当前公开的是 `v2.0`
+- 一个给小白准备的默认结果区 `takeaway_is_here/`
+
+## 这个仓库不包含什么
+
+- 真实案例
+- 私有研究归档（其中不涉及隐私和版权风险的部分，会在未来 `v3` 逐步发布）
+- 来源素材包（其中可公开的部分，会在未来 `v3` 逐步发布）
+- 私有链接
+- 本地绝对路径
+- 第三方案例库
+- `V3.0` 的升级包
+
+## 为什么社交媒体里的版本看起来更强
+
+这个公开仓库主要聚焦在 `takeaway-skill` 本身。
+
+但在我自己的工作流里，最佳效果通常来自多个 skill 联动，比如：
+
+- `takeaway-skill`
+  - 负责判断什么值得拿、什么不能直接照抄
+- `codingskill`
+  - 负责读网站代码、重建结构、做出可运行的还原或改造版本
+- `static-design-skill`
+  - 负责把页面逻辑进一步压缩成更清楚的版式和视觉决策
+- 其他辅助 skill
+  - 比如 SVG、主体提取、图形或素材处理相关 skill
+
+另外，我已经提前蒸馏了很多内容，也积累了更多素材包和中间资产。
+
+所以社交媒体里的版本看起来更强，不只是因为多个 skill 联动，也因为它已经站在更多已整理内容的基础上继续长。
+
+如果你想达到接近我社交媒体展示的效果，通常需要多 Skill 联动。`takeaway-skill` 负责判断路线，但它本身并不替代实现。
+
 ## 默认使用流
 
 这个仓库默认不是“只看一个 skill 文件就结束”。
@@ -282,6 +282,15 @@ public `v2.0` 现在明确分开三层：
 - 第三方录屏归档
 - 私有身份信息同步
 - 从内部版直接搬运出来的私有研究痕迹
+
+## 相关 Skill
+
+- [Takeaway Skill](https://github.com/julilaoshi/takeaway-skill) - 蒸馏参考，拿机制。
+- [Open Pencil](https://github.com/julilaoshi/open-pencil) - 让 agent 执行 Pencil。
+- [FlowMotion Skill](https://github.com/julilaoshi/flowmotion-skill) - 把乱想法变流程图。
+- [Pickupskill](https://github.com/julilaoshi/pickupskill) - 谨慎整理散落文件。
+- [孙子读论文](https://github.com/julilaoshi/sunzi-reading) - 把论文讲成人话。
+- [Callback Skill](https://github.com/julilaoshi/callback-skill) - 把反馈做成升级包。
 
 ## 找到居里老师
 

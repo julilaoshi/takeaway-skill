@@ -23,79 +23,6 @@
 
 English | [简体中文](./README.zh-CN.md)
 
-## What This Unlocks
-
-- stop just collecting good references
-- distill good sites, designs, and interactions into reusable local assets
-- place the distilled results into the management page I built for viewing, demos, and iteration
-- make it easier to manage, review, present, and keep improving
-- combine it with other skills to move toward automated distillation, automated design, and automatic asset use
-
-## Start Here
-
-- [Star the repository](https://github.com/julilaoshi/takeaway-skill)
-- [Read the public skill file](./skill/SKILL.md)
-- [Watch the video walkthrough](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
-
-## Project Demo
-
-[Watch the full demo on YouTube](https://youtu.be/BoX5lhy0al4)
-
-## Why This Repository Exists
-
-`takeaway-skill` is not about copying someone else's facade and selling it.
-
-It is about:
-
-- learning faster
-- studying references with better judgment
-- separating mechanism from surface style
-- adapting ideas into stronger original work
-
-This repository is shared to increase visibility, exchange methods, and make the core idea easier to reuse.
-
-## What This Repository Includes
-
-- a lightweight page shell for hosting distilled entries
-- the public version of `takeaway-skill`
-- safe reference templates
-- an editable framework without real case content
-- the current public `v2.0` release
-- a beginner-safe default result zone in `takeaway_is_here/`
-
-## What This Repository Does Not Include
-
-- real case studies
-- private research archives (selected non-sensitive parts may appear later in `v3`)
-- source material packages (selected public-safe parts may appear later in `v3`)
-- private links
-- local absolute paths
-- third-party example libraries
-- private identity details that belong only to the internal workflow
-- any feature for archiving third-party screenshots or recordings inside the public package
-- the `v3.0` upgrade package
-
-## Why The Social Media Version Looks Stronger
-
-This repository focuses on `takeaway-skill` itself.
-
-In my personal workflow, the strongest results usually come from several skills working together, for example:
-
-- `takeaway-skill`
-  - decide what is worth taking and what must not be copied directly
-- `codingskill`
-  - inspect site code, rebuild structures, and produce working reconstructions
-- `static-design-skill`
-  - compress page logic into clearer layout and visual decisions
-- optional supporting skills
-  - such as SVG, visual extraction, and other production-side helpers
-
-I have also already distilled a larger body of references and accumulated more material packs and intermediate assets in the internal workflow.
-
-So the social media version looks stronger not only because of multi-skill coordination, but also because it is built on top of more prepared material.
-
-If you want results closer to my social media demos, a multi-skill workflow is usually necessary. `takeaway-skill` defines the strategy, but it does not replace implementation.
-
 ## How to Load and Use
 
 `takeaway-skill` is a Skill/workflow layer. It is not a package installer, app installer, or environment setup script.
@@ -185,6 +112,79 @@ Place the working result into takeaway_is_here/distilled_entries/.
 If needed, add a separate public-safe showcase block into site/index.html.
 After editing, tell me what I should check in the HTML page.
 ```
+
+## Project Demo
+
+[Watch the full demo on YouTube](https://youtu.be/BoX5lhy0al4)
+
+## What This Unlocks
+
+- stop just collecting good references
+- distill good sites, designs, and interactions into reusable local assets
+- place the distilled results into the management page I built for viewing, demos, and iteration
+- make it easier to manage, review, present, and keep improving
+- combine it with other skills to move toward automated distillation, automated design, and automatic asset use
+
+## Start Here
+
+- [Star the repository](https://github.com/julilaoshi/takeaway-skill)
+- [Read the public skill file](./skill/SKILL.md)
+- [Watch the video walkthrough](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
+
+## Why This Repository Exists
+
+`takeaway-skill` is not about copying someone else's facade and selling it.
+
+It is about:
+
+- learning faster
+- studying references with better judgment
+- separating mechanism from surface style
+- adapting ideas into stronger original work
+
+This repository is shared to increase visibility, exchange methods, and make the core idea easier to reuse.
+
+## What This Repository Includes
+
+- a lightweight page shell for hosting distilled entries
+- the public version of `takeaway-skill`
+- safe reference templates
+- an editable framework without real case content
+- the current public `v2.0` release
+- a beginner-safe default result zone in `takeaway_is_here/`
+
+## What This Repository Does Not Include
+
+- real case studies
+- private research archives (selected non-sensitive parts may appear later in `v3`)
+- source material packages (selected public-safe parts may appear later in `v3`)
+- private links
+- local absolute paths
+- third-party example libraries
+- private identity details that belong only to the internal workflow
+- any feature for archiving third-party screenshots or recordings inside the public package
+- the `v3.0` upgrade package
+
+## Why The Social Media Version Looks Stronger
+
+This repository focuses on `takeaway-skill` itself.
+
+In my personal workflow, the strongest results usually come from several skills working together, for example:
+
+- `takeaway-skill`
+  - decide what is worth taking and what must not be copied directly
+- `codingskill`
+  - inspect site code, rebuild structures, and produce working reconstructions
+- `static-design-skill`
+  - compress page logic into clearer layout and visual decisions
+- optional supporting skills
+  - such as SVG, visual extraction, and other production-side helpers
+
+I have also already distilled a larger body of references and accumulated more material packs and intermediate assets in the internal workflow.
+
+So the social media version looks stronger not only because of multi-skill coordination, but also because it is built on top of more prepared material.
+
+If you want results closer to my social media demos, a multi-skill workflow is usually necessary. `takeaway-skill` defines the strategy, but it does not replace implementation.
 
 ## Structure
 
@@ -276,6 +276,15 @@ Public does not mean:
 - third-party recording archive
 - private identity sync
 - private workflow traces copied from the internal version
+
+## Related Skills
+
+- [Takeaway Skill](https://github.com/julilaoshi/takeaway-skill) - distill references into reusable mechanisms.
+- [Open Pencil](https://github.com/julilaoshi/open-pencil) - run Pencil workflows with agents.
+- [FlowMotion Skill](https://github.com/julilaoshi/flowmotion-skill) - turn messy notes into motion flows.
+- [Pickupskill](https://github.com/julilaoshi/pickupskill) - organize messy folders safely.
+- [Sunzi Reading](https://github.com/julilaoshi/sunzi-reading) - explain papers in plain language.
+- [Callback Skill](https://github.com/julilaoshi/callback-skill) - package feedback for Skill upgrades.
 
 ## Find Julilaoshi
 
