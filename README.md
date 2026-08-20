@@ -23,6 +23,14 @@
 
 English | [简体中文](./README.zh-CN.md)
 
+## What Can This Skill Help You Do?
+
+- Break websites, screenshots, recordings, motion, or spoken references into explainable mechanisms.
+- Separate surface style from the structure that is actually worth learning.
+- Evaluate evidence and originality distance to reduce accidental imitation.
+- Turn approved mechanisms into pattern cards or implementation briefs you can adapt.
+- Hand them downstream by task, project, or global scope, with a clear record of use.
+
 ## Why This Repository Exists
 
 `takeaway-skill` is not about copying someone else's facade and selling it.
@@ -129,17 +137,6 @@ After editing, tell me what I should check in the HTML page.
 ## Project Demo
 
 [Watch the full demo on YouTube](https://youtu.be/BoX5lhy0al4)
-
-## What This Unlocks
-
-- stop just collecting good references
-- distill good sites, designs, and interactions into reusable local assets
-- keep every new candidate unreviewed until the author explicitly approves reuse
-- limit reuse to a task, project, or globally confirmed scope
-- disclose evidence, originality distance, expiry, revocation, and whether an approved asset was used
-- place the distilled results into the management page I built for viewing, demos, and iteration
-- make it easier to manage, review, present, and keep improving
-- combine it with other skills to move toward automated distillation, automated design, and automatic asset use
 
 ## Start Here
 
