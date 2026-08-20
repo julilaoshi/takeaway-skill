@@ -1,0 +1,12 @@
+{"id":"new_reference","asset_state":"inbox","decision":"unreviewed","scope":"none","expected_reuse":false,"writer_sees_external_text":false}
+{"id":"formal_not_approved","asset_state":"formal","decision":"unreviewed","scope":"none","expected_reuse":false,"writer_sees_external_text":false}
+{"id":"task_match","asset_state":"formal","decision":"approved","scope":"task","scope_matches":true,"expected_reuse":true,"writer_sees_external_text":false}
+{"id":"task_mismatch","asset_state":"formal","decision":"approved","scope":"task","scope_matches":false,"expected_reuse":false,"writer_sees_external_text":false}
+{"id":"project_match","asset_state":"formal","decision":"approved","scope":"project","scope_matches":true,"expected_reuse":true,"writer_sees_external_text":false}
+{"id":"global_without_second_confirmation","asset_state":"formal","decision":"approved","scope":"global","scope_matches":true,"global_confirmation":false,"expected_reuse":false,"writer_sees_external_text":false}
+{"id":"global_confirmed","asset_state":"formal","decision":"approved","scope":"global","scope_matches":true,"global_confirmation":true,"expected_reuse":true,"writer_sees_external_text":false}
+{"id":"source_only","asset_state":"source_only","decision":"approved","scope":"task","scope_matches":true,"expected_reuse":false,"writer_sees_external_text":false}
+{"id":"archive_only","asset_state":"archived","decision":"archive_only","scope":"none","expected_reuse":false,"writer_sees_external_text":false}
+{"id":"revoked","asset_state":"formal","decision":"revoked","scope":"project","scope_matches":true,"expected_reuse":false,"writer_sees_external_text":false}
+{"id":"expired","asset_state":"formal","decision":"approved","scope":"task","scope_matches":true,"expired":true,"expected_reuse":false,"writer_sees_external_text":false}
+{"id":"writer_isolation","asset_state":"formal","decision":"approved","scope":"task","scope_matches":true,"expected_reuse":true,"writer_sees_external_text":false}

@@ -71,3 +71,13 @@ Suggested output structure:
      - [decorative details / guessed parameters / mixed layers]
    - recommended container:
      - [HTML / CSS / JS / SVG / design file]
+
+11. `Governance`
+   - asset state: [source_only / inbox / formal / archived]
+   - reuse decision: [unreviewed / approved / archive_only / blocked / revoked]
+   - approved scope: [none / task / project / global]
+   - expiry or revocation: [none / date / reason]
+   - public-safe source note: [no private path, credential, or protected material]
+   - delivery disclosure: [approved IDs / no approved distilled assets used]
+
+The governance fields are independent from the quality scores. A high-confidence or high-value card is not automatically approved for reuse.

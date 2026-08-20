@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  Public <code>v2.0</code> now. The versions shown on my social media are closer to an internal <code>v3</code> workflow.
+  Public <code>v2.1</code> now: the method is public, while approvals, private archives, and local workflow traces stay out of the package.
 </p>
 
 English | [简体中文](./README.zh-CN.md)
@@ -121,6 +121,9 @@ After editing, tell me what I should check in the HTML page.
 
 - stop just collecting good references
 - distill good sites, designs, and interactions into reusable local assets
+- keep every new candidate unreviewed until the author explicitly approves reuse
+- limit reuse to a task, project, or globally confirmed scope
+- disclose evidence, originality distance, expiry, revocation, and whether an approved asset was used
 - place the distilled results into the management page I built for viewing, demos, and iteration
 - make it easier to manage, review, present, and keep improving
 - combine it with other skills to move toward automated distillation, automated design, and automatic asset use
@@ -150,26 +153,28 @@ This repository is shared to increase visibility, exchange methods, and make the
 - the public version of `takeaway-skill`
 - safe reference templates
 - an editable framework without real case content
-- the current public `v2.0` release
+- the current public `v2.1` release
+- a public-safe approval and reuse contract
+- a boundary regression suite for default-deny behavior and writer isolation
 - a beginner-safe default result zone in `takeaway_is_here/`
 
 ## What This Repository Does Not Include
 
 - real case studies
-- private research archives (selected non-sensitive parts may appear later in `v3`)
-- source material packages (selected public-safe parts may appear later in `v3`)
+- private research archives
+- source material packages
 - private links
 - local absolute paths
 - third-party example libraries
 - private identity details that belong only to the internal workflow
 - any feature for archiving third-party screenshots or recordings inside the public package
-- the `v3.0` upgrade package
+- internal-only governance data, resolvers, and local paths
 
 ## Why The Social Media Version Looks Stronger
 
 This repository focuses on `takeaway-skill` itself.
 
-In my personal workflow, the strongest results usually come from several skills working together, for example:
+In a fuller private workflow, stronger results may come from several skills working together, for example:
 
 - `takeaway-skill`
   - decide what is worth taking and what must not be copied directly
@@ -180,9 +185,9 @@ In my personal workflow, the strongest results usually come from several skills 
 - optional supporting skills
   - such as SVG, visual extraction, and other production-side helpers
 
-I have also already distilled a larger body of references and accumulated more material packs and intermediate assets in the internal workflow.
+Private work may also contain more prepared references and intermediate assets that are intentionally not shipped here.
 
-So the social media version looks stronger not only because of multi-skill coordination, but also because it is built on top of more prepared material.
+The public package therefore focuses on the method and its safety contract, not on reproducing a private archive.
 
 If you want results closer to my social media demos, a multi-skill workflow is usually necessary. `takeaway-skill` defines the strategy, but it does not replace implementation.
 
@@ -210,15 +215,16 @@ The default flow is:
 1. use `skill/SKILL.md` to distill a reference
 2. use `references/` as the safe output scaffold
 3. save the working result into `takeaway_is_here/distilled_entries/`
-4. use `takeaway_is_here/OPEN_HOME.html` as the easiest place to reopen the package
-5. mirror only the public-safe showcase layer into `site/index.html`
-6. review the result through the webpage
+4. leave the new result `unreviewed` until the author approves a scope
+5. use `takeaway_is_here/OPEN_HOME.html` as the easiest place to reopen the package
+6. mirror only the public-safe showcase layer into `site/index.html`
+7. review the result through the webpage and disclose approved IDs or no approved assets used
 
 If someone only reads the skill file and never uses `takeaway_is_here/`, they will lose the most beginner-friendly part of the package.
 
 ## Where Your Distilled Results Go
 
-For public `v2.0`, the repository now separates:
+For public `v2.1`, the repository now separates:
 
 - `references/`
   - method templates
@@ -230,6 +236,8 @@ For public `v2.0`, the repository now separates:
   - the easiest place to look first if you cannot find your result
 - `site/index.html`
   - the public-facing showcase shell
+
+The showcase uses synthetic records and a non-authoritative review-batch demo. It does not read local folders, persist private approvals, or upload data.
 
 In short:
 

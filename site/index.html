@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
     <title>居里老师拿来主义</title>
     <meta
       name="description"
@@ -63,7 +64,8 @@
         display: grid;
         gap: 12px;
         align-self: end;
-        max-width: 700px;
+        min-width: 0;
+        max-width: 100%;
       }
       .title-lockup {
         display: grid;
@@ -73,15 +75,16 @@
       }
       .title-head {
         display: grid;
-        grid-template-columns: max-content max-content minmax(450px, 580px);
+        grid-template-columns: minmax(0, 1fr) auto minmax(230px, 0.78fr);
         gap: 14px;
         align-items: stretch;
-        width: fit-content;
+        width: 100%;
         max-width: 100%;
       }
       .title-copy {
         display: grid;
         gap: 6px;
+        min-width: 0;
       }
       .eyebrow {
         display: none;
@@ -207,10 +210,11 @@
         border: 0;
         background: none;
         color: rgba(255, 255, 255, 0.8);
-        font-size: 20px;
-        line-height: 1;
+        font-size: 16px;
+        line-height: 1.2;
         font-weight: 700;
-        white-space: nowrap;
+        white-space: normal;
+        overflow-wrap: anywhere;
         text-align: left;
         text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
       }
@@ -509,6 +513,216 @@
         color: var(--muted);
         line-height: 1.75;
       }
+
+      /* Public v2.1 governance showcase: synthetic data only. */
+      .public-governance {
+        --public-web-fill: #d8ecfa;
+        --public-web-hover: #c4e2f6;
+        --public-web-accent: #006a9e;
+        --public-creative-fill: #ecddf6;
+        --public-creative-hover: #ddc8ee;
+        --public-creative-accent: #7b3fa1;
+        --public-spoken-fill: #fce2cf;
+        --public-spoken-hover: #f7cfb3;
+        --public-spoken-accent: #b84a00;
+        --public-realtime-fill: #d5eee6;
+        --public-realtime-hover: #bfe4d8;
+        --public-realtime-accent: #007c65;
+        --public-systems-fill: #f5edbf;
+        --public-systems-hover: #ede09b;
+        --public-systems-accent: #806000;
+        --public-unknown-fill: #e3e7ea;
+        --public-unknown-hover: #d1d7dc;
+        --public-unknown-accent: #55616c;
+        margin-top: 22px;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.52);
+      }
+      .public-governance-head {
+        display: grid;
+        gap: 7px;
+        padding: 16px;
+        border-bottom: 1px solid var(--line);
+      }
+      .public-governance-head strong {
+        font-size: clamp(19px, 2.3vw, 30px);
+        letter-spacing: -0.04em;
+      }
+      .public-governance-head p {
+        max-width: 70rem;
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+      .public-governance-note {
+        display: inline-flex;
+        width: fit-content;
+        padding: 6px 8px;
+        border: 1px solid rgba(0, 0, 0, 0.35);
+        background: #fff;
+        color: #444;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .public-feature-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        border-bottom: 1px solid var(--line);
+      }
+      .public-feature {
+        display: grid;
+        gap: 7px;
+        min-height: 120px;
+        padding: 13px;
+        border-right: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.72);
+      }
+      .public-feature:last-child { border-right: 0; }
+      .public-feature strong { font-size: 13px; }
+      .public-feature span { color: var(--muted); font-size: 12px; line-height: 1.55; }
+      .public-governance-toolbar {
+        display: grid;
+        gap: 10px;
+        padding: 13px;
+        border-bottom: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.68);
+      }
+      .public-governance-toolbar-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+      }
+      .public-governance-toolbar label {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      .public-governance-toolbar input[type="search"] {
+        min-width: min(100%, 270px);
+        min-height: 34px;
+        padding: 0 10px;
+        border: 1px solid var(--line);
+        border-radius: 0;
+        background: #fff;
+        color: var(--ink);
+        font: inherit;
+        font-size: 13px;
+      }
+      .public-filter-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      .public-filter-group button,
+      .public-view-toggle button,
+      .public-demo-action {
+        min-height: 32px;
+        padding: 0 9px;
+        border: 1px solid rgba(17, 17, 17, 0.52);
+        border-radius: 0;
+        background: #fff;
+        color: var(--ink);
+        cursor: pointer;
+        font: inherit;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+      }
+      .public-filter-group button:hover,
+      .public-view-toggle button:hover,
+      .public-demo-action:hover { background: #f1f1ee; }
+      .public-filter-group button[aria-pressed="true"],
+      .public-view-toggle button[aria-pressed="true"] {
+        background: #111;
+        color: #fff;
+      }
+      .public-filter-group[data-filter-kind="category"] button[data-public-category="web"][aria-pressed="true"] { background: var(--public-web-accent); }
+      .public-filter-group[data-filter-kind="category"] button[data-public-category="creative"][aria-pressed="true"] { background: var(--public-creative-accent); }
+      .public-filter-group[data-filter-kind="category"] button[data-public-category="spoken"][aria-pressed="true"] { background: var(--public-spoken-accent); }
+      .public-filter-group[data-filter-kind="category"] button[data-public-category="realtime"][aria-pressed="true"] { background: var(--public-realtime-accent); }
+      .public-filter-group[data-filter-kind="category"] button[data-public-category="systems"][aria-pressed="true"] { background: var(--public-systems-accent); }
+      .public-filter-group[data-filter-kind="category"] button[data-public-category="unknown"][aria-pressed="true"] { background: var(--public-unknown-accent); }
+      .public-filter-group button[data-public-category="web"] { border-color: var(--public-web-accent); }
+      .public-filter-group button[data-public-category="creative"] { border-color: var(--public-creative-accent); }
+      .public-filter-group button[data-public-category="spoken"] { border-color: var(--public-spoken-accent); }
+      .public-filter-group button[data-public-category="realtime"] { border-color: var(--public-realtime-accent); }
+      .public-filter-group button[data-public-category="systems"] { border-color: var(--public-systems-accent); }
+      .public-filter-group button[data-public-category="unknown"] { border-color: var(--public-unknown-accent); }
+      .public-governance-count {
+        margin-left: auto;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 800;
+      }
+      .public-governance-list {
+        display: grid;
+        gap: 8px;
+        padding: 12px;
+      }
+      .public-governance-card {
+        display: grid;
+        grid-template-columns: 108px minmax(150px, 1.2fr) minmax(150px, 1.5fr) minmax(170px, 0.8fr) auto;
+        gap: 0;
+        align-items: stretch;
+        border: 1px solid rgba(17, 17, 17, 0.62);
+        border-left: 6px solid var(--public-card-accent);
+        background: var(--public-card-fill);
+        color: #17211f;
+      }
+      .public-governance-card[data-public-category="web"] { --public-card-fill: var(--public-web-fill); --public-card-hover: var(--public-web-hover); --public-card-accent: var(--public-web-accent); }
+      .public-governance-card[data-public-category="creative"] { --public-card-fill: var(--public-creative-fill); --public-card-hover: var(--public-creative-hover); --public-card-accent: var(--public-creative-accent); }
+      .public-governance-card[data-public-category="spoken"] { --public-card-fill: var(--public-spoken-fill); --public-card-hover: var(--public-spoken-hover); --public-card-accent: var(--public-spoken-accent); }
+      .public-governance-card[data-public-category="realtime"] { --public-card-fill: var(--public-realtime-fill); --public-card-hover: var(--public-realtime-hover); --public-card-accent: var(--public-realtime-accent); }
+      .public-governance-card[data-public-category="systems"] { --public-card-fill: var(--public-systems-fill); --public-card-hover: var(--public-systems-hover); --public-card-accent: var(--public-systems-accent); }
+      .public-governance-card[data-public-category="unknown"] { --public-card-fill: var(--public-unknown-fill); --public-card-hover: var(--public-unknown-hover); --public-card-accent: var(--public-unknown-accent); }
+      .public-governance-card:hover { background: var(--public-card-hover); }
+      .public-governance-card[data-public-status="approved"] { outline: 2px solid rgba(0, 124, 101, 0.8); outline-offset: -2px; }
+      .public-governance-card > div { display: grid; align-content: center; gap: 5px; min-width: 0; padding: 12px; border-right: 1px solid rgba(17, 17, 17, 0.22); }
+      .public-governance-card > div:last-child { border-right: 0; }
+      .public-governance-id { font-size: 11px; font-weight: 900; letter-spacing: 0.05em; }
+      .public-governance-title { font-size: 14px; font-weight: 900; }
+      .public-governance-summary, .public-governance-meta { color: #52615c; font-size: 12px; line-height: 1.45; }
+      .public-governance-pill { display: inline-flex; width: fit-content; padding: 4px 6px; background: var(--public-card-accent); color: #fff; font-size: 10px; font-weight: 900; letter-spacing: 0.05em; text-transform: uppercase; }
+      .public-governance-card .public-demo-action { align-self: center; margin: 10px; border-color: var(--public-card-accent); background: rgba(255, 255, 255, 0.8); }
+      .public-governance-card .public-demo-action:hover { background: #fff; }
+      .public-governance-empty { padding: 24px 12px; border: 1px dashed rgba(17, 17, 17, 0.45); color: var(--muted); text-align: center; }
+      .public-governance-list[data-view="gallery"] { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .public-governance-list[data-view="gallery"] .public-governance-card { grid-template-columns: 1fr; }
+      .public-governance-list[data-view="gallery"] .public-governance-card > div { border-right: 0; border-bottom: 1px solid rgba(17, 17, 17, 0.22); }
+      .public-governance-list[data-view="gallery"] .public-governance-card > div:last-of-type { border-bottom: 0; }
+      .public-batch-tray { display: grid; gap: 8px; padding: 13px; border-top: 1px solid var(--line); background: rgba(255, 255, 255, 0.76); }
+      .public-batch-tray strong { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
+      .public-batch-tray p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+      .public-batch-output { width: 100%; min-height: 76px; padding: 9px; border: 1px solid var(--line); border-radius: 0; background: #fff; color: #26312e; font: 12px/1.45 ui-monospace, SFMono-Regular, Menlo, monospace; resize: vertical; }
+      .public-batch-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+      .public-batch-status { color: var(--muted); font-size: 12px; }
+      @media (max-width: 900px) {
+        .public-feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .public-feature:nth-child(2) { border-right: 0; }
+        .public-feature:nth-child(-n + 2) { border-bottom: 1px solid var(--line); }
+        .public-governance-card { grid-template-columns: 86px 1fr 1fr; }
+        .public-governance-card > div:nth-child(4) { grid-column: 2 / -1; border-top: 1px solid rgba(17, 17, 17, 0.22); }
+        .public-governance-card > .public-demo-action { grid-column: 1 / -1; justify-self: start; }
+        .public-governance-list[data-view="gallery"] { grid-template-columns: 1fr; }
+      }
+      @media (max-width: 620px) {
+        .public-feature-grid { grid-template-columns: 1fr; }
+        .public-feature, .public-feature:nth-child(2) { border-right: 0; border-bottom: 1px solid var(--line); }
+        .public-feature:last-child { border-bottom: 0; }
+        .public-governance-card { grid-template-columns: 1fr; }
+        .public-governance-card > div,
+        .public-governance-card > div:nth-child(4) { grid-column: auto; border-right: 0; border-top: 0; border-bottom: 1px solid rgba(17, 17, 17, 0.22); }
+        .public-governance-card > .public-demo-action { grid-column: auto; justify-self: start; }
+        .public-governance-count { width: 100%; margin-left: 0; }
+      }
       @media (max-width: 1080px) {
         .masthead {
           grid-template-columns: 1fr;
@@ -620,6 +834,7 @@
     <nav class="distill-tabs" aria-label="public template navigation">
       <a class="distill-tab is-active" href="#top">Home</a>
       <a class="distill-tab" href="../README.md">README</a>
+      <a class="distill-tab" href="#governance-demo">Governance</a>
       <a class="distill-tab" href="#entries">Template</a>
       <a class="distill-tab" href="#notes">Notes</a>
     </nav>
@@ -637,21 +852,77 @@
                 <span class="hero-functional-line">Takeaway Skill（拿来主义skill）: distill references into reusable mechanisms, adaptation routes, pattern cards, and implementation briefs without copying surface style.</span>
               </div>
               <div class="hero-mark" aria-hidden="true">SKILL</div>
-              <div class="bio-stack" aria-label="居里老师简介">
-                <span class="bio-chip">大学艺术老师🤖英澳海龟🐢</span>
-                <span class="bio-chip">做Vibe Coding | AI skills | 独立开发</span>
-                <span class="bio-chip">分享AI创作、作品怎么长出来的，灵感碎片</span>
+              <div class="bio-stack" aria-label="public-safe method summary">
+                <span class="bio-chip">Public method pack · synthetic examples</span>
+                <span class="bio-chip">Distill · review · scope · handoff</span>
+                <span class="bio-chip">No local paths, private archives, or upload</span>
               </div>
             </div>
             <div class="hero-meta" aria-label="distill summary">
               <span>public method pack</span>
-              <span>v2.0</span>
+              <span>v2.1</span>
               <span>pattern cards</span>
               <span>implementation brief</span>
+              <span>approval-aware</span>
               <span>public-safe scaffold</span>
-              <strong class="hero-handle">@julilaoshi</strong>
               <strong class="hero-takeaway">takeaway Skill</strong>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="public-governance" id="governance-demo" aria-labelledby="public-governance-title">
+        <div class="public-governance-head">
+          <span class="public-governance-note">public v2.1 · demo only · no sync</span>
+          <strong id="public-governance-title">审批不是装饰，是复用闸门</strong>
+          <p>这组记录是匿名合成数据，用来展示公开版的新机制：先蒸馏、再审批、按范围交接。页面不会读取本地目录、写入私有 registry、保存浏览器审批或上传任何内容。</p>
+        </div>
+        <div class="public-feature-grid" aria-label="public v2.1 feature disclosure">
+          <div class="public-feature"><strong>01 · Default deny</strong><span>新卡默认待审批；正式、可见或高评分都不等于允许复用。</span></div>
+          <div class="public-feature"><strong>02 · Scope match</strong><span>本次任务、当前项目、全局范围分开；全局必须二次确认。</span></div>
+          <div class="public-feature"><strong>03 · Traceable output</strong><span>记录证据置信度、原创距离、期限、撤销状态和实际使用披露。</span></div>
+          <div class="public-feature"><strong>04 · Writer isolation</strong><span>下游只接压缩机制卡，不接第三方全文、逐句映射或私有笔记。</span></div>
+        </div>
+        <div class="public-governance-toolbar">
+          <div class="public-governance-toolbar-row">
+            <label for="public-governance-search">Search</label>
+            <input id="public-governance-search" type="search" placeholder="搜索匿名卡片、机制或类别" autocomplete="off" />
+            <div class="public-governance-count" id="public-governance-count" aria-live="polite">0 records</div>
+          </div>
+          <div class="public-governance-toolbar-row">
+            <label>Status</label>
+            <div class="public-filter-group" data-filter-kind="status" role="group" aria-label="filter by review status">
+              <button type="button" data-public-status="all" aria-pressed="true">全部</button>
+              <button type="button" data-public-status="unreviewed" aria-pressed="false">待审批</button>
+              <button type="button" data-public-status="approved" aria-pressed="false">演示已批</button>
+              <button type="button" data-public-status="archive_only" aria-pressed="false">只留档</button>
+            </div>
+          </div>
+          <div class="public-governance-toolbar-row">
+            <label>Category</label>
+            <div class="public-filter-group" data-filter-kind="category" role="group" aria-label="filter by category">
+              <button type="button" data-public-category="all" aria-pressed="true">全部 <span data-public-count="all">0</span></button>
+              <button type="button" data-public-category="web" aria-pressed="false">网站 <span data-public-count="web">0</span></button>
+              <button type="button" data-public-category="creative" aria-pressed="false">创意 <span data-public-count="creative">0</span></button>
+              <button type="button" data-public-category="spoken" aria-pressed="false">口播 <span data-public-count="spoken">0</span></button>
+              <button type="button" data-public-category="realtime" aria-pressed="false">实时 <span data-public-count="realtime">0</span></button>
+              <button type="button" data-public-category="systems" aria-pressed="false">系统 <span data-public-count="systems">0</span></button>
+            </div>
+            <div class="public-view-toggle" role="group" aria-label="switch public demo view">
+              <button type="button" data-public-view="table" aria-pressed="true">治理表格</button>
+              <button type="button" data-public-view="gallery" aria-pressed="false">视觉 Gallery</button>
+            </div>
+          </div>
+        </div>
+        <div class="public-governance-list" id="public-governance-list" data-view="table" aria-live="polite"></div>
+        <div class="public-batch-tray" aria-label="public review batch demo">
+          <strong>Review batch · unsynchronized</strong>
+          <p>点击某张卡可生成“本次演示”的批次 JSON。它只存在于当前页面内存中，刷新后消失，不代表私有授权已经写入。</p>
+          <textarea class="public-batch-output" id="public-batch-output" readonly aria-label="review batch JSON"></textarea>
+          <div class="public-batch-actions">
+            <button type="button" class="public-demo-action" id="public-copy-batch">复制演示批次</button>
+            <button type="button" class="public-demo-action" id="public-clear-batch">清空演示选择</button>
+            <span class="public-batch-status" id="public-batch-status" aria-live="polite">未选择任何记录。</span>
           </div>
         </div>
       </section>
@@ -676,7 +947,7 @@
             </div>
           </div>
           <div class="cell-desc" id="notes">
-            This public version keeps the branded shell, the list framework, and the method scaffold. It does not include real case studies, private research archives, or third-party source packages. Add your own rows, then replace the placeholders with your own material.
+            This public version keeps the branded shell, the list framework, and the method scaffold. It does not include real case studies, private research archives, or third-party source packages. Add your own anonymous rows, then review and approve reuse separately.
           </div>
           <div class="cell-links">
             <a class="is-disabled" href="#">001 demo</a>
@@ -820,7 +1091,7 @@
           </div>
           <div class="result-zone-body">
             <p>
-              In public <strong>v2.0</strong>, users should no longer treat <code>references/</code> as their long-term result library.
+              In public <strong>v2.1</strong>, users should no longer treat <code>references/</code> as their long-term result library.
               The default place to store working takeaway results is <code>takeaway_is_here/</code>.
             </p>
             <div class="zone-actions">
@@ -888,6 +1159,189 @@
         </article>
       </section>
     </div>
+    <script>
+      (function () {
+        const records = [
+          { id: "PUB-WEB-001", title: "Calm hero reveal", category: "web", categoryLabel: "网站", summary: "先锁骨架，再让次级信息按节奏出现。", evidence: "synthetic · medium", distance: "far", state: "formal", status: "unreviewed", scope: "none" },
+          { id: "PUB-WEB-002", title: "Dense filter rail", category: "web", categoryLabel: "网站", summary: "用同一数据面驱动分类、状态与数量。", evidence: "synthetic · high", distance: "far", state: "formal", status: "approved", scope: "project" },
+          { id: "PUB-CREATIVE-001", title: "Rule-based visual variation", category: "creative", categoryLabel: "创意", summary: "固定规则，替换内容与材质，保留可解释的变化轴。", evidence: "synthetic · medium", distance: "far", state: "formal", status: "unreviewed", scope: "none" },
+          { id: "PUB-SPOKEN-001", title: "Mechanism before wording", category: "spoken", categoryLabel: "口播", summary: "只提炼传播动作，不把外部原句交给写作者。", evidence: "synthetic · medium", distance: "far", state: "archived", status: "archive_only", scope: "none" },
+          { id: "PUB-REALTIME-001", title: "Stateful live surface", category: "realtime", categoryLabel: "实时", summary: "把输入、状态和反馈拆成可复核的最小循环。", evidence: "synthetic · low", distance: "medium", state: "inbox", status: "unreviewed", scope: "none" },
+          { id: "PUB-SYSTEM-001", title: "Stop-loss checkpoint", category: "systems", categoryLabel: "系统", summary: "两轮仍无法解释机制时，回到证据而不是继续猜参数。", evidence: "synthetic · high", distance: "far", state: "formal", status: "unreviewed", scope: "none" }
+        ];
+        const categoryLabels = { web: "网站", creative: "创意", spoken: "口播", realtime: "实时", systems: "系统", unknown: "未分类" };
+        const list = document.getElementById("public-governance-list");
+        const count = document.getElementById("public-governance-count");
+        const search = document.getElementById("public-governance-search");
+        const batchOutput = document.getElementById("public-batch-output");
+        const batchStatus = document.getElementById("public-batch-status");
+        const copyBatch = document.getElementById("public-copy-batch");
+        const clearBatch = document.getElementById("public-clear-batch");
+        if (!list || !count || !search || !batchOutput || !batchStatus) return;
+
+        let statusFilter = "all";
+        let categoryFilter = "all";
+        let view = "table";
+        let query = "";
+        const demoDecisions = new Map();
+
+        function effectiveStatus(record) {
+          return demoDecisions.has(record.id) ? "approved" : record.status;
+        }
+
+        function visibleRecords() {
+          const needle = query.trim().toLowerCase();
+          return records.filter((record) => {
+            const matchesStatus = statusFilter === "all" || effectiveStatus(record) === statusFilter;
+            const matchesCategory = categoryFilter === "all" || record.category === categoryFilter;
+            const haystack = [record.id, record.title, record.categoryLabel, record.summary, record.evidence].join(" ").toLowerCase();
+            return matchesStatus && matchesCategory && (!needle || haystack.includes(needle));
+          });
+        }
+
+        function text(parent, className, value) {
+          const node = document.createElement("div");
+          if (className) node.className = className;
+          node.textContent = value;
+          parent.appendChild(node);
+          return node;
+        }
+
+        function buttonLabel(record) {
+          if (record.status === "archive_only") return "只留档";
+          return demoDecisions.has(record.id) ? "撤销演示" : "模拟批准";
+        }
+
+        function renderCard(record) {
+          const article = document.createElement("article");
+          const currentStatus = effectiveStatus(record);
+          article.className = "public-governance-card";
+          article.dataset.publicCategory = record.category;
+          article.dataset.publicStatus = currentStatus;
+          article.setAttribute("aria-label", `${record.id} ${record.title}`);
+
+          const idCell = document.createElement("div");
+          text(idCell, "public-governance-id", record.id);
+          text(idCell, "public-governance-meta", record.state);
+          article.appendChild(idCell);
+
+          const titleCell = document.createElement("div");
+          text(titleCell, "public-governance-title", record.title);
+          const pill = text(titleCell, "public-governance-pill", record.categoryLabel);
+          pill.setAttribute("aria-label", `category ${record.categoryLabel}`);
+          article.appendChild(titleCell);
+
+          const summaryCell = document.createElement("div");
+          text(summaryCell, "public-governance-summary", record.summary);
+          text(summaryCell, "public-governance-meta", `evidence ${record.evidence} · distance ${record.distance}`);
+          article.appendChild(summaryCell);
+
+          const statusCell = document.createElement("div");
+          text(statusCell, "public-governance-meta", `status ${currentStatus} · scope ${demoDecisions.has(record.id) ? "task (demo)" : record.scope}`);
+          text(statusCell, "public-governance-meta", record.status === "archive_only" ? "保留证据，不进入复用队列" : "公开示例，不连接真实授权");
+          article.appendChild(statusCell);
+
+          const action = document.createElement("button");
+          action.type = "button";
+          action.className = "public-demo-action";
+          action.textContent = buttonLabel(record);
+          action.disabled = record.status === "archive_only";
+          action.setAttribute("aria-label", `${buttonLabel(record)} ${record.id}`);
+          action.addEventListener("click", () => {
+            if (record.status === "archive_only") return;
+            if (demoDecisions.has(record.id)) demoDecisions.delete(record.id);
+            else demoDecisions.set(record.id, { action: "task", scope: "task", task_id: "public-demo-task" });
+            render();
+          });
+          article.appendChild(action);
+          return article;
+        }
+
+        function renderBatch() {
+          const items = Array.from(demoDecisions, ([id, decision]) => ({ id, ...decision }));
+          const payload = {
+            schema_version: "public-review-batch-demo-1",
+            demo_only: true,
+            synchronized: false,
+            reviewed_by: "demo_user",
+            items
+          };
+          batchOutput.value = items.length ? JSON.stringify(payload, null, 2) : "";
+          batchStatus.textContent = items.length ? `${items.length} 条演示选择；未同步。` : "未选择任何记录。";
+        }
+
+        function updateCounts() {
+          document.querySelectorAll("[data-public-count]").forEach((node) => {
+            const key = node.dataset.publicCount;
+            node.textContent = key === "all" ? records.length : records.filter((record) => record.category === key).length;
+          });
+        }
+
+        function render() {
+          const visible = visibleRecords();
+          list.dataset.view = view;
+          list.replaceChildren();
+          if (!visible.length) {
+            const empty = document.createElement("div");
+            empty.className = "public-governance-empty";
+            empty.textContent = "没有符合当前筛选的公开合成记录。";
+            list.appendChild(empty);
+          } else {
+            visible.forEach((record) => list.appendChild(renderCard(record)));
+          }
+          count.textContent = `${visible.length} / ${records.length} synthetic records`;
+          renderBatch();
+        }
+
+        document.querySelectorAll("[data-filter-kind=status] [data-public-status]").forEach((button) => {
+          button.addEventListener("click", () => {
+            statusFilter = button.dataset.publicStatus;
+            document.querySelectorAll("[data-filter-kind=status] [data-public-status]").forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+            render();
+          });
+        });
+        document.querySelectorAll("[data-filter-kind=category] [data-public-category]").forEach((button) => {
+          button.addEventListener("click", () => {
+            categoryFilter = button.dataset.publicCategory;
+            document.querySelectorAll("[data-filter-kind=category] [data-public-category]").forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+            render();
+          });
+        });
+        document.querySelectorAll("[data-public-view]").forEach((button) => {
+          button.addEventListener("click", () => {
+            view = button.dataset.publicView;
+            document.querySelectorAll("[data-public-view]").forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+            render();
+          });
+        });
+        search.addEventListener("input", () => {
+          query = search.value;
+          render();
+        });
+        clearBatch.addEventListener("click", () => {
+          demoDecisions.clear();
+          render();
+        });
+        if (copyBatch) {
+          copyBatch.addEventListener("click", async () => {
+            if (!batchOutput.value) {
+              batchStatus.textContent = "请先选择一张可审批的演示卡。";
+              return;
+            }
+            try {
+              await navigator.clipboard.writeText(batchOutput.value);
+              batchStatus.textContent = "演示批次已复制；仍未同步。";
+            } catch (_error) {
+              batchOutput.focus();
+              batchOutput.select();
+              batchStatus.textContent = "浏览器未授权自动复制，请手动复制文本。";
+            }
+          });
+        }
+        updateCounts();
+        render();
+      })();
+    </script>
     <script>
       (function () {
         const title = document.querySelector(".hero-title");

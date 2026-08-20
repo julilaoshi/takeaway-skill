@@ -4,7 +4,7 @@
 
 ## Description
 
-`Takeaway Skill（拿来主义skill）: distill references into reusable mechanisms, adaptation routes, pattern cards, and implementation briefs without copying surface style.`
+`Takeaway Skill（拿来主义skill）: distill references into reusable mechanisms, keep reuse unreviewed by default, and hand off only public-safe, scope-matched patterns without copying surface style.`
 
 ## Website
 
@@ -19,6 +19,8 @@
 - `reference-distillation`
 - `pattern-card`
 - `implementation-brief`
+- `reuse-governance`
+- `default-deny`
 - `design-analysis`
 - `creative-workflow`
 - `vibe-coding`

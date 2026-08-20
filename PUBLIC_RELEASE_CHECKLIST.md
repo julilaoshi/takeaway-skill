@@ -99,3 +99,22 @@
 - Open the framework.
 - Reserve the brand.
 - Keep third-party study material private.
+
+## G. Governance feature check
+
+- [ ] New candidates default to `unreviewed`
+- [ ] Capture, approval, and skill promotion remain separate decisions
+- [ ] Task / project / global scope rules are visible and global reuse needs a second confirmation
+- [ ] Expiry, revocation, archive-only, and blocked states are represented
+- [ ] Public demo approvals are labelled unsynchronized and non-authoritative
+- [ ] Every handoff discloses approved IDs or that no approved distilled assets were used
+- [ ] Writer handoffs exclude third-party full text and line-by-line mappings
+- [ ] Boundary regression cases pass without reading private folders or network services
+
+## H. Privacy scan for this release
+
+- [ ] No local absolute paths or internal directory names
+- [ ] No credentials, cookies, private links, or private identity details
+- [ ] No real private card IDs, usage events, resolver data, or research archives
+- [ ] Any retained banner or brand asset is explicitly covered by `BRAND_NOTICE.md`
+- [ ] Showcase data is synthetic and no browser storage, analytics, or upload is used

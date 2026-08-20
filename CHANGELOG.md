@@ -4,6 +4,22 @@ All notable public changes to `takeaway-skill` are documented here.
 
 This repository is maintained as a public, lightweight Skill/workflow package. Private research material, private prompt chains, and third-party source archives are intentionally not included.
 
+## Public v2.1 Governance Upgrade
+
+### Added
+
+- Added a public-safe approval and reuse contract with default-deny behavior.
+- Added scope-aware handoffs for task, project, and globally confirmed reuse.
+- Added public registry shape, source-intake, downstream-handoff, and evaluation references.
+- Added a boundary regression suite covering expiry, revocation, scope mismatch, and writer isolation.
+- Updated the showcase and onboarding copy to disclose the new governance features.
+
+### Privacy boundary
+
+- Examples remain synthetic and contain no local paths, private archives, private approvals, or credentials.
+- The showcase review batch is explicitly non-authoritative and is not uploaded or persisted.
+- Brand-facing assets remain governed by `BRAND_NOTICE.md` and are not covered by the MIT license automatically.
+
 ## Public v2.0 Package
 
 Public package update focused on clearer loading, safer output boundaries, and a better beginner path.
