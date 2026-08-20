@@ -23,6 +23,19 @@
 
 English | [简体中文](./README.zh-CN.md)
 
+## Why This Repository Exists
+
+`takeaway-skill` is not about copying someone else's facade and selling it.
+
+It is about:
+
+- learning faster
+- studying references with better judgment
+- separating mechanism from surface style
+- adapting ideas into stronger original work
+
+This repository is shared to increase visibility, exchange methods, and make the core idea easier to reuse.
+
 ## How to Load and Use
 
 `takeaway-skill` is a Skill/workflow layer. It is not a package installer, app installer, or environment setup script.
@@ -133,19 +146,6 @@ After editing, tell me what I should check in the HTML page.
 - [Star the repository](https://github.com/julilaoshi/takeaway-skill)
 - [Read the public skill file](./skill/SKILL.md)
 - [Watch the video walkthrough](https://youtu.be/BoX5lhy0al4?si=KarMJOSAOb7icKO2)
-
-## Why This Repository Exists
-
-`takeaway-skill` is not about copying someone else's facade and selling it.
-
-It is about:
-
-- learning faster
-- studying references with better judgment
-- separating mechanism from surface style
-- adapting ideas into stronger original work
-
-This repository is shared to increase visibility, exchange methods, and make the core idea easier to reuse.
 
 ## What This Repository Includes
 
